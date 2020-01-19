@@ -52,7 +52,6 @@
               Our Portfolio
             </div>
             <div class="description">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem atque perspiciatis animi dicta, quae nesciunt error facere commodi quos odio ex aliquid aspernatur hic nisi accusantium sequi mollitia et? Quos!
             </div>
           </div>
         </div>
