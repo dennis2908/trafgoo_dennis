@@ -428,13 +428,13 @@
 
   <!-- SCOPE JAVASCRIPT -->
   <script src="{{asset('assets/js/bootstrap.js')}}"></script>
-  <script src="assets/js/jquery.scrolltofixed.js"></script>
-  <script src="assets/js/revolution.min.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/owl.carousel.js"></script>
-  <script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/jquery.scrollspeed.js"></script>
-  <script src="assets/js/main.js"></script>
+  <script src="{{asset('assets/js/jquery.scrolltofixed.js')}}"></script>
+  <script src="{{asset('assets/js/revolution.min.js')}}"></script>
+  <script src="{{asset('assets/js/wow.min.js')}}"></script>
+  <script src="{{asset('assets/js/owl.carousel.js')}}"></script>
+  <script src="{{asset('assets/js/wow.min.js')}}"></script>
+  <script src="{{asset('assets/js/jquery.scrollspeed.js')}}"></script>
+  <script src="{{asset('assets/js/main.js')}}"></script>
   <script>
     (function($) {
 
