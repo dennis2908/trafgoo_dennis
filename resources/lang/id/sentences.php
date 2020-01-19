@@ -47,9 +47,10 @@ return [
 	'dev' => 'Pengembangan',
 	'test' => 'Pengujian',
 	'final' => 'Finalisasi',
-	'portofolio_detail' => 'Perusahaan kami menyediakan berbagai macam produk IT solution untuk mempermudah pengelolaan bisnis, efisiensi waktu, mengurangi biaya. Mulai ceritakan permasalahan anda melalui kontak di HUBUNGI KAMI',
+	'portofolio_detail' => 'Perusahaan kami menyediakan berbagai macam produk IT solution untuk mempermudah pengelolaan bisnis, efisiensi waktu, mengurangi biaya.',
 	'see_all' => 'Lihat Semua',
 	'testimony' => 'Kesaksian Pengguna',
 	'testimony_detail' => "Kami memiliki kesaksian yang bervariasi dari klien",
 	'our_logo' => 'Semua itu mungkin',
+	'our_portfolio' => 'Portfolio Kami'
 ];

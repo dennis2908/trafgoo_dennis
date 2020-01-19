@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
   @include('head')
   <body>
     <div class="apecsaos-wrapper">

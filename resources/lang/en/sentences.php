@@ -47,9 +47,10 @@ return [
 	'dev' => 'Development',
 	'test' => 'Testing',
 	'final' => 'Finalizing',
-	'portofolio_detail' => 'Our company provides a variety of IT solution products to facilitate business management, time efficiency, reduce costs. Start telling your problem at CONTACT US.',
+	'portofolio_detail' => 'Our company provides a variety of IT solution products to facilitate business management, time efficiency, reduce costs.',
 	'see_all' => 'See All',
 	'testimony' => "Testimonial Client",
 	'testimony_detail' => "We have various testimony from our clients",
 	'our_logo' => 'Anything Is Possible',
+	'our_portfolio' => 'Our Portofolio'
 ];

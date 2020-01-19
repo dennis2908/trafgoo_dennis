@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 @include('head')
 <body>
   <div class="apecsaos-wrapper">
@@ -49,7 +48,7 @@
         <div class="container">
           <div class="col-md-12">
             <div class="title">
-              Our Services
+              @lang('sentences.our_services')
             </div>
             <div class="description">
             </div>
