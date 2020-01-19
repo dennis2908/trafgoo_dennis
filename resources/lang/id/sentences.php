@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'home' => 'Home',
+    'home' => 'Beranda',
     'about_us' => 'Tentang Kami',
     'our_services' => 'Layanan Kami',
     'portofolio' => 'Portfolio',
