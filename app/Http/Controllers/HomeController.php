@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use View;
@@ -13,7 +13,6 @@ class HomeController extends Controller
 	
     public function index(Request $request)
     {
-			
         return view('index');
     } 
 	
@@ -31,14 +30,20 @@ class HomeController extends Controller
 	
 	public function portfolio(Request $request)
     {
-			
+		
         return view('portfolio');
     }
 	
 	public function contactus(Request $request)
     {
-			
+		
         return view('contactus');
+    }
+	
+	public function lang($locale)
+    {
+	   Session::put('locale', $locale);
+	   return redirect()->back();
     }
 
 }	

@@ -69,11 +69,11 @@
                 data-transition="slotzoom-horizontal"
                 data-slotamount="1"
                 data-masterspeed="1000"
-                data-thumb="assets/images/slider/slider_4.jpg"
+                data-thumb="{{asset('assets/images/slider/slider_4.jpg')}}"
                 data-saveperformance="off"
-                data-title="We are Awsome">
+                data-title="@lang('sentences.contact_us')">
                 <img
-                  src="assets/images/slider/slider_4.jpg"
+                  src="{{asset('assets/images/slider/slider_4.jpg')}}"
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
@@ -84,11 +84,11 @@
                 data-transition="curtain-3"
                 data-slotamount="1"
                 data-masterspeed="1300"
-                data-thumb="assets/images/slider/slider_1.jpg"
+                data-thumb="{{asset('assets/images/slider/slider_1.jpg')}}"
                 data-saveperformance="off"
-                data-title="With Awsome Services">
+                data-title="@lang('sentences.with_awesome_service')">
                 <img
-                  src="assets/images/slider/slider_1.jpg"
+                  src="{{asset('assets/images/slider/slider_1.jpg')}}"
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
@@ -98,11 +98,11 @@
                 data-transition="slideright"
                 data-slotamount="1"
                 data-masterspeed="1300"
-                data-thumb="assets/images/slider/slider_4.jpg"
+                data-thumb="{{asset('assets/images/slider/slider_4.jpg')}}"
                 data-saveperformance="off"
-                data-title="We are Awsome">
+                data-title="@lang('sentences.we_are_awesome')">
                 <img
-                  src="assets/images/slider/slider_4.jpg"
+                  src="{{asset('assets/images/slider/slider_4.jpg')}}"
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
@@ -121,10 +121,10 @@
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-black bdr-btm-gray">
-                <span class="bg-section">Development Categories</span>
+                <span class="bg-section">@lang('sentences.development_category')</span>
               </div>
               <div class="desc color-black">
-                We build application based system,Website Development, web based system, mobile based system and more 
+                @lang('sentences.what_we_build')
               </div>
             </div>
           </div>
@@ -139,11 +139,11 @@
                       </div>
                     </div>
                     <div class="title">
-                      Website Development
+					  @lang('sentences.web_dev')
                     </div>
                     <div class="description">
                       <p>
-                        We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in designing websites.
+					    @lang('sentences.web_dev_detail')
                       </p>
                     </div>
                   </div>
@@ -156,11 +156,11 @@
                       </div>
                     </div>
                     <div class="title">
-                      Web Based System Development
+					  @lang('sentences.web_based_system')
                     </div>
                     <div class="description">
                       <p>
-                        We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in designing websites.
+					    @lang('sentences.web_based_system_detail')
                       </p>
                     </div>
                   </div>
@@ -173,11 +173,11 @@
                       </div>
                     </div>
                     <div class="title">
-                      Application Development
+					  @lang('sentences.web_based_app')
                     </div>
                     <div class="description">
                       <p>
-                        We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in designing websites.
+					    @lang('sentences.web_based_app_detail')
                       </p>
                     </div>
                   </div>
@@ -190,11 +190,12 @@
                       </div>
                     </div>
                     <div class="title">
-                      Mobile Based Application Development
+					  @lang('sentences.mobile_based_app')
+                      
                     </div>
                     <div class="description">
                       <p>
-                        We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in designing websites.
+					    @lang('sentences.mobile_based_app_detail')
                       </p>
                     </div>
                   </div>
@@ -207,11 +208,11 @@
                       </div>
                     </div>
                     <div class="title">
-                      Mobile Based System Development
+					  @lang('sentences.mobile_based_system')
                     </div>
                     <div class="description">
                       <p>
-                        We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in designing websites.
+					    @lang('sentences.mobile_based_system_detail')
                       </p>
                     </div>
                   </div>
@@ -224,11 +225,11 @@
                       </div>
                     </div>
                     <div class="title">
-                      Search Engine Optimation
+					  @lang('sentences.seo')
                     </div>
                     <div class="description">
                       <p>
-                        We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in designing websites.
+					    @lang('sentences.seo_detail')
                       </p>
                     </div>
                   </div>
@@ -246,10 +247,10 @@
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-black bdr-btm-gray">
-                <span class="bg-red-pink color-white">Bussiness Process</span>
+                <span class="bg-red-pink color-white">@lang('sentences.business_process')</span>
               </div>
               <div class="desc color-white">
-                Our business process starts with requesting development                
+			    @lang('sentences.business_process_detail')            
 			  </div>
             </div>
           </div>
@@ -258,39 +259,39 @@
               <div class="stepwizard-row">
                 <div class="stepwizard-step">
                   <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-user"></i>
+                    <i class="fa fa-paper-plane"></i>
                   </button>
-                  <p class="color-white">Requesting Development</p>
+                  <p class="color-white">@lang('sentences.request_dev')</p>
                 </div>
                 <div class="stepwizard-step">
                   <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-gear"></i>
+                    <i class="fa fa-eye"></i>
                   </button>
-                  <p class="color-white">Reviewing request</p>
+                  <p class="color-white">@lang('sentences.review_request')</p>
                 </div>
                 <div class="stepwizard-step">
                   <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-bars"></i>
+                    <i class="fa fa-group"></i>
                   </button>
-                  <p class="color-white">Discussing requirement</p>
+                  <p class="color-white">@lang('sentences.discuss_req')</p>
                 </div> 
                 <div class="stepwizard-step">
                   <button type="button" class="btn btn-default btn-circle">
                     <i class="fa fa-refresh"></i>
                   </button>
-                  <p class="color-white">Development phase</p>
+                  <p class="color-white">@lang('sentences.dev_phase')</p>
                 </div>
                 <div class="stepwizard-step">
                   <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-bank"></i>
+                    <i class="fa fa-check"></i>
                   </button>
-                  <p class="color-white">Testing Acceptance Test</p>
+                  <p class="color-white">UAT</p>
                 </div>
 				<div class="stepwizard-step">
                   <button type="button" class="btn btn-default btn-circle">
-                    <i class="fa fa-bank"></i>
+                    <i class="fa fa-map-marker"></i>
                   </button>
-                  <p class="color-white">Finalizing phase</p>
+                  <p class="color-white">@lang('sentences.final_phase')</p>
                 </div>
               </div>
             </div>
@@ -305,10 +306,10 @@
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-black bdr-btm-gray">
-                <span class="bg-section">Development Process</span>
+                <span class="bg-section">@lang('sentences.dev_process')</span>
               </div>
               <div class="desc color-black">
-                We use fast development process                 
+                @lang('sentences.dev_process_detail')                 
 			  </div>
             </div>
           </div>
@@ -317,19 +318,19 @@
               <div class="stepwizard-row">
                 <div class="stepwizard-step">
                   <button type="button" class="btn btn-success btn-circle">1</button>
-                  <p>Requirement</p>
+                  <p>@lang('sentences.req')</p>
                 </div>
                 <div class="stepwizard-step">
                   <button type="button" class="btn btn-success btn-circle">2</button>
-                  <p>Developement</p>
+                  <p>@lang('sentences.dev')</p>
                 </div>
                 <div class="stepwizard-step">
                   <button type="button" class="btn btn-success btn-circle">3</button>
-                  <p>Testing</p>
+                  <p>@lang('sentences.test')</p>
                 </div> 
                 <div class="stepwizard-step">
                   <button type="button" class="btn btn-success btn-circle">4</button>
-                  <p>Finalizing</p>
+                  <p>@lang('sentences.final')</p>
                 </div>
               </div>
             </div>
@@ -345,14 +346,14 @@
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-white">
-                <span class="color-white">Portfolio</span>
+                <span class="color-white">@lang('sentences.portofolio')</span>
               </div>
               <div class="desc color-white">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque, quisquam blanditiis, voluptatibus, delectus nesciunt tenetur cupiditate quae facere voluptates nihil saepe tempora laboriosam alias a quod! Libero, ipsum, blanditiis.
+			    @lang('sentences.portofolio_detail')
               </div>
-              <a href="contactus.html" class="btn btn-apecsa-red btn-lg">
+              <a href="{{url('portfolio')}}" class="btn btn-apecsa-red btn-lg">
                 <i class="fa fa-bars"></i>
-                Lihat Semua
+                @lang('sentences.see_all')
               </a>
             </div>
           </div>
@@ -366,10 +367,10 @@
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-black bdr-btm-gray">
-                <span class="bg-section">Testimonial Client</span>
+                <span class="bg-section">@lang('sentences.testimony')</span>
               </div>
               <div class="desc color-black">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque, quisquam blanditiis, voluptatibus, delectus nesciunt tenetur cupiditate quae facere voluptates nihil saepe tempora laboriosam alias a quod! Libero, ipsum, blanditiis.
+                @lang('sentences.testimony_detail')
               </div>
             </div>
           </div>
@@ -379,92 +380,20 @@
                 <div class="item list-testimonial">
                   <div class="box-quote">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, officia nesciunt, voluptates dolores suscipit alias deleniti reiciendis? Sequi, voluptate sunt repellat laudantium ex mollitia corporis. Culpa possimus laborum, beatae voluptatum.
+                      "An Acceptable system"
                     </p>
                   </div>
                   <div class="box-client">
                     <div class="box-avatar">
                       <div class="avatar">
-                        <img src="assets/images/client/fathan.jpg" alt="">
+                        <img src="assets/images/client/shangrilla.png" alt="">
                       </div>
                     </div>
                     <div class="box-name-wrapper">
                       <div class="name">
                         <span class="name">
-                          Fathan Rohman - 
-                          <span class="position">Frontend Developer</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="item list-testimonial">
-                  <div class="box-quote">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores magni laborum, consectetur saepe accusantium a optio facilis minima reprehenderit ipsa nobis provident, sapiente labore iste necessitatibus quibusdam pariatur. Est, tempore!
-                    </p>
-                  </div>
-                  <div class="box-client">
-                    <div class="box-avatar">
-                      <div class="avatar">
-                        <img src="assets/images/client/fathan.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="box-name-wrapper">
-                      <div class="name">
-                        <span class="name">
-                          Fathan Rohman - 
-                          <span class="position">Frontend Developer</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="item list-testimonial">
-                  <div class="box-quote">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, officia nesciunt, voluptates dolores suscipit alias deleniti reiciendis? Sequi, voluptate sunt repellat laudantium ex mollitia corporis. Culpa possimus laborum, beatae voluptatum.
-                    </p>
-                  </div>
-                  <div class="box-client">
-                    <div class="box-avatar">
-                      <div class="avatar">
-                        <img src="assets/images/client/fathan.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="box-name-wrapper">
-                      <div class="name">
-                        <span class="name">
-                          Fathan Rohman - 
-                          <span class="position">Frontend Developer</span>
-                        </span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-12">
-                <div class="item list-testimonial">
-                  <div class="box-quote">
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores magni laborum, consectetur saepe accusantium a optio facilis minima reprehenderit ipsa nobis provident, sapiente labore iste necessitatibus quibusdam pariatur. Est, tempore!
-                    </p>
-                  </div>
-                  <div class="box-client">
-                    <div class="box-avatar">
-                      <div class="avatar">
-                        <img src="assets/images/client/fathan.jpg" alt="">
-                      </div>
-                    </div>
-                    <div class="box-name-wrapper">
-                      <div class="name">
-                        <span class="name">
-                          Fathan Rohman - 
-                          <span class="position">Frontend Developer</span>
+                          Mr Yuyu
+                          <span class="position">CEO Shangrilla Hotel Singapore</span>
                         </span>
                       </div>
                     </div>
@@ -498,7 +427,14 @@
   </body>
 
   <!-- SCOPE JAVASCRIPT -->
-  @include('footer_assets')
+  <script src="{{asset('assets/js/bootstrap.js')}}"></script>
+  <script src="assets/js/jquery.scrolltofixed.js"></script>
+  <script src="assets/js/revolution.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/owl.carousel.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/jquery.scrollspeed.js"></script>
+  <script src="assets/js/main.js"></script>
   <script>
     (function($) {
 

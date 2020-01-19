@@ -4,11 +4,11 @@
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-white">
-                <span>Contact Us</span>
+                <span>@lang('sentences.contact_us')</span>
               </div>
               <a href="{{route('contactus')}}" class="btn btn-apecsa-red btn-lg">
                 <i class="fa fa-envelope"></i>
-                Hubungi Kami
+                @lang('sentences.contact_us')
               </a>
             </div>
           </div>
@@ -23,7 +23,7 @@
               </div>
               <div class="corpyright">
                 <span>&copy; Copyright 2020 PT. Baga Putra Mandiri</span><br>
-                <span>Anything Is Possible</span>
+                <span>@lang('sentences.our_logo')</span>
               </div>
             </div>
           </div>
