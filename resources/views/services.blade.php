@@ -386,22 +386,7 @@
       <!-- END SCOPE TECHNOLOGIES WE USE-->
 
       <!-- START SCOPE INTRODUCE CONTACT US -->
-      <section class="parallax-apecsa bg-img-2 introduce-wrapper contact-us">
-        <div class="bg-overlay-full"></div>
-        <div class="container">
-          <div class="col-md-12">
-            <div class="box-title-desc">
-              <div class="title color-white">
-                <span>Contact Us</span>
-              </div>
-              <a href="contactus.php" class="btn btn-apecsa-orange btn-lg">
-                <i class="fa fa-envelope"></i>
-                Hubungi Kami
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+      
       <!-- END SCOPE INTRODUCE CONTACT US -->
 
       <!-- START SCOPE FOOTER -->

@@ -623,25 +623,6 @@
       <!-- END SCOPE LIST PORTFOLIO -->
 
       <!-- START SCOPE INTRODUCE CONTACT US -->
-      <section class="parallax-apecsa bg-portfolio introduce-wrapper contact-us">
-        <div class="bg-overlay-full"></div>
-        <div class="container">
-          <div class="col-md-12">
-            <div class="box-title-desc">
-              <div class="title color-white">
-                <span>Contact Us</span>
-              </div>
-              <div class="desc color-white">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro eaque, quisquam blanditiis, voluptatibus, delectus nesciunt tenetur cupiditate quae facere voluptates nihil saepe tempora laboriosam alias a quod! Libero, ipsum, blanditiis.
-              </div>
-              <a href="contactus.html" class="btn btn-apecsa-red btn-lg">
-                <i class="fa fa-envelope"></i>
-                Hubungi Kami
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
       <!-- END SCOPE INTRODUCE CONTACT US -->
 
       <!-- START SCOPE FOOTER -->
