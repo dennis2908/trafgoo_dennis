@@ -150,22 +150,22 @@
                       </select>
                     </div>
                     <div class="col-md-12">
-                      <label for="website_url">Website URL</label>
+                      <label for="website_url">@lang('sentences.url')</label>
                       <input type="url" name="website_url" class="form-control" placeholder="E.x: http://yoururldomain.com/">
                     </div>
                     <div class="col-md-12">
-                      <label for="message">Please tell us a bit about your project</label>
+                      <label for="message">@lang('sentences.tell_us_a_bit_about')</label>
                       <textarea class="form-control" cols="10" rows="10" placeholder="your message" name="message" required></textarea>
                     </div>
                     <div class="col-md-12">
-                      <label for="file">Document</label>
+                      <label for="file">@lang('sentences.doc')</label>
                       <input type="file" name="file">
                     </div>
                     <div class="col-md-12">
                       <br>
                       <button type="submit" class="btn btn-lg btn-apecsa-red">
                         <i class="fa fa-send"></i>
-                        submit
+                        @lang('sentences.submit')
                       </button>
                     </div>
                   </form>
@@ -174,7 +174,7 @@
                   <form action="{{route('submit_customer_just_say')}}" method="post">
 				    {{ csrf_field() }} 
                     <div class="col-md-6">
-                      <label for="full_name">* Full Name</label>
+                      <label for="full_name">* @lang('sentences.full_name')</label>
                       <input type="text" class="form-control" name="full_name" placeholder="John Doe" required>
                     </div>
                     <div class="col-md-6">
@@ -182,15 +182,15 @@
                       <input type="email" class="form-control" name="email" placeholder="E.x: yourname@email.com" required>
                     </div>
                     <div class="col-md-6">
-                      <label for="phone">* Phone</label>
+                      <label for="phone">* @lang('sentences.phone')</label>
                       <input type="text" class="form-control" name="phone" placeholder="E.x: 0857 xxx xxx xxx" required>
                     </div>
                     <div class="col-md-6">
-                      <label for="company_name">Company</label>
+                      <label for="company_name">@lang('sentences.your_company')</label>
                       <input type="text" class="form-control" name="company_name" placeholder="Your company name">
                     </div>
                     <div class="col-md-12">
-                      <label for="message">Message</label>
+                      <label for="message">@lang('sentences.message')</label>
                       <textarea class="form-control" cols="10" name="message" rows="10" placeholder="message" required></textarea>
                     </div>
                     <div class="col-md-12">

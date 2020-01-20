@@ -65,4 +65,8 @@ return [
 	'friend'=>'Dari teman atau kolega',
 	'other'=>'Lainnya',
 	'submit'=>'Kirim',
+	'url'=>'Alamat Website',
+	'tell_us_a_bit_about'=>'Ceritakan sedikit mengenai proyek anda',
+	'doc'=>'Dokumen',
+	'message'=>'Pesan Anda',
 ];

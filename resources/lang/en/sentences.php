@@ -65,4 +65,8 @@ return [
 	'friend'=>'Friends / Relative',
 	'other'=>'Others',
 	'submit'=>'Submit',
+	'url'=>'Website Address',
+	'tell_us_a_bit_about'=>'Tell us a bit about your project',
+	'doc'=>'Document',
+	'message'=>'Messager',
 ];
