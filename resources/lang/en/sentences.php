@@ -52,5 +52,17 @@ return [
 	'testimony' => "Testimonial Client",
 	'testimony_detail' => "We have various testimony from our clients",
 	'our_logo' => 'Anything Is Possible',
-	'our_portfolio' => 'Our Portofolio'
+	'our_portfolio' => 'Our Portofolio',
+	'company_address'=> 'Bengawan Solo Street I Blok A5 No.9, Harapan Jaya, Bekasi Utara, Kota Bks, West Java 17124 Indonesia',
+	'ph_numb'=>'Phone Number',
+	'your_budget'=>'Your budget',
+	'i_wanna_talk'=>'I wanna talk about project',
+	'i_just_wanna_say'=>'I just wanna talk',
+	'full_name'=>'Full Name',
+	'phone'=>'Contact Number',
+	'your_company'=>'Your Company Name',
+	'where_did_find_us'=>'Where did you find us',
+	'friend'=>'Friends / Relative',
+	'other'=>'Others',
+	'submit'=>'Submit',
 ];

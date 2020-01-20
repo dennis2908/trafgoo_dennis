@@ -52,5 +52,17 @@ return [
 	'testimony' => 'Kesaksian Pengguna',
 	'testimony_detail' => "Kami memiliki kesaksian yang bervariasi dari klien",
 	'our_logo' => 'Semua itu mungkin',
-	'our_portfolio' => 'Portfolio Kami'
+	'our_portfolio' => 'Portfolio Kami',
+	'company_address'=>'Jl. Bengawan Solo I Blok A5 No.9, Harapan Jaya, Bekasi Utara, Kota Bks, Jawa Barat 17124 Indonesia',
+	'your_budget'=>'Anggaran Anda',
+	'ph_numb'=>'No Telepon',
+	'i_wanna_talk'=>'Aku ingin berbicara mengenai proyek',
+	'i_just_wanna_say'=>'Aku hanya ingin mengobrol',
+	'full_name'=>'Nama Lengkap',
+	'phone'=>'Nomor yang bisa dihubungi',
+	'your_company'=>'Nama Perusahaan',
+	'where_did_find_us'=>'Tahu tentang kami darimana',
+	'friend'=>'Dari teman atau kolega',
+	'other'=>'Lainnya',
+	'submit'=>'Kirim',
 ];
