@@ -69,4 +69,13 @@ return [
 	'tell_us_a_bit_about'=>'Tell us a bit about your project',
 	'doc'=>'Document',
 	'message'=>'Messager',
+	'_about_us'=>'About Us',
+	'our_vision'=>'Our Vision',
+	'_our_vision' =>'Helping companies to reduce costs, expenses, centralized databases, speed up processes, facilitate supervision through a centralized system',	   
+	'our_mission'=>'Our Mission',
+	'_our_mission'=>"Our company provides a variety of IT solution products to facilitate business management, time efficiency, reduce costs such as Stock Monitoring Systems, HRD Systems, Quota Systems, TQM (Table Queque Management), Security Systems, ERP Systems (Enterprise Resources Planning), etc. that we didn't mention Start telling us about your problem through contact at CONTACT US",
+	'final_target' => 'Final Target',
+	'_final_target' => 'A system that is useful for company operations',
+	'meet_our_team' => 'Meet our team',
+	'we_are_team' => 'We are professional team'
 ];

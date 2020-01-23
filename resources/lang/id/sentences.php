@@ -69,4 +69,13 @@ return [
 	'tell_us_a_bit_about'=>'Ceritakan sedikit mengenai proyek anda',
 	'doc'=>'Dokumen',
 	'message'=>'Pesan Anda',
+	'_about_us'=>'Mengenai Kami',
+	'our_vision'=>'Visi Kami',
+	'_our_vision'=>'Membantu perusahaan untuk mengurangi biaya (costs), pengeluaran, database tersentralisasi, mempercepat proses, mempermudah pengawasan melalui suatu sistem yang tersentral',
+	'our_mission'=>'Misi Kami',
+	'_our_mission'=>'Perusahaan kami menyediakan berbagai macam produk IT solution untuk mempermudah pengelolaan bisnis, efisiensi waktu, mengurangi biaya seperti Sistem Pantau Stok, Sistem HRD, Sistem Kuota, TQM (Table Queque Management), Sistem Keamanan, Sistem ERP (Enterprise Resources Planning), dan lain lain yang tidak kami sebutkan Mulai ceritakan permasalahan anda melalui kontak di HUBUNGI KAMI',
+	'final_target' => 'Target Akhir',
+	'_final_target' => 'Sistem yang berguna bagi operasional perusahaan',
+	'meet_our_team' => 'Temuilah tim kami',
+	'we_are_team' => 'Kami adalah tim professional'
 ];

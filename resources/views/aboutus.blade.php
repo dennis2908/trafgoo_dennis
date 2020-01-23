@@ -49,7 +49,7 @@
         <div class="container">
           <div class="col-md-12">
             <div class="title">
-              About us
+              @lang('sentences.about_us')
             </div>
           </div>
         </div>
@@ -69,7 +69,7 @@
               <div class="col-md-6">
                 <div class="content-wrapper">
                   <div class="title">
-                    Mengenai kami, PT. Baga Putra Mandiri
+                    @lang('sentences._about_us'), PT. Baga Putra Mandiri
                   </div>
                   <div class="desc">
                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -77,14 +77,13 @@
                         <div class="panel-heading" role="tab" id="headingOne">
                           <h4 class="panel-title">
                             <a role="button" data-toggle="collapse" data-parent="#accordion" href="#about-visi" aria-expanded="true" aria-controls="about-visi">
-                              Visi kami
+                              @lang('sentences.our_vision')
                             </a>
                           </h4>
                         </div>
                         <div id="about-visi" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
                           <div class="panel-body">
-                            Membantu perusahaan untuk mengurangi biaya (costs), pengeluaran, database tersentralisasi, mempercepat proses, mempermudah pengawasan melalui suatu sistem  yang tersentral
-
+						  @lang('sentences._our_vision')
                           </div>
                         </div>
                       </div>
@@ -92,15 +91,13 @@
                         <div class="panel-heading" role="tab" id="headingTwo">
                           <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#misi" aria-expanded="false" aria-controls="misi">
-                              Misi Kami
+                              @lang('sentences.our_mission')
                             </a>
                           </h4>
                         </div>
                         <div id="misi" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                           <div class="panel-body">
-                          Perusahaan kami menyediakan berbagai macam produk IT solution untuk mempermudah pengelolaan bisnis, efisiensi waktu, mengurangi biaya seperti  Sistem Pantau Stok, Sistem HRD, Sistem Kuota, TQM (Table Queque Management), Sistem Keamanan, Sistem ERP (Enterprise Resources Planning), dan lain lain yang tidak kami sebutkan
-Mulai ceritakan permasalahan anda melalui kontak di HUBUNGI KAMI
-                            
+							@lang('sentences._our_mission')
 						  </div>
                         </div>
                       </div>
@@ -108,13 +105,13 @@ Mulai ceritakan permasalahan anda melalui kontak di HUBUNGI KAMI
                         <div class="panel-heading" role="tab" id="headingThree">
                           <h4 class="panel-title">
                             <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#target" aria-expanded="false" aria-controls="target">
-                              Target Akhir
+                              @lang('sentences.final_target')
                             </a>
                           </h4>
                         </div>
                         <div id="target" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                           <div class="panel-body">
-                            Sistem yang berguna bagi operasional perusahaan                            
+                            @lang('sentences._final_target')                         
 						  </div>
                         </div>
                       </div>
@@ -177,10 +174,10 @@ Mulai ceritakan permasalahan anda melalui kontak di HUBUNGI KAMI
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-black bdr-btm-gray">
-                <span class="bg-white">Meet our team</span>
+                <span class="bg-white">@lang('sentences.meet_our_team')</span>
               </div>
-              <div class="desc color-white">
-                We are team professional
+              <div class="desc color-black">
+                @lang('sentences.we_are_team')
               </div>
             </div>
           </div>
