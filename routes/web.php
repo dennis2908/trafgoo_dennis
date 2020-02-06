@@ -164,6 +164,7 @@ Route::get('aboutus','HomeController@aboutus')->name('aboutus');
 Route::get('services','HomeController@services')->name('services');
 Route::get('portfolio','HomeController@portfolio')->name('portfolio');
 Route::get('contactus','HomeController@contactus')->name('contactus');
+Route::get('dennismanullangiscool','HomeController@adminsite')->name('adminsite');
 Route::post('submit_customer_just_say','CustomerJustSayController@submit_customer_just_say')->name('submit_customer_just_say');
 Route::post('submit_customer_talk_project','CustomerTalkProjectController@submit_customer_talk_project')->name('submit_customer_talk_project');
 });

@@ -40,6 +40,12 @@ class HomeController extends Controller
         return view('contactus');
     }
 	
+	public function adminsite(Request $request)
+    {
+		
+        return view('template/index');
+    }
+	
 	public function lang($locale)
     {
 	   Session::put('locale', $locale);
