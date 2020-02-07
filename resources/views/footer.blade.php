@@ -24,7 +24,7 @@
               <div class="corpyright">
                 <span>&copy; Copyright 2020 PT. Baga Putra Mandiri</span><br>
                 <span>@lang('sentences.our_logo')</span>
-              </div>
+              </div> 
             </div>
           </div>
         </div>
