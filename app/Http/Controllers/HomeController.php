@@ -28,10 +28,16 @@ class HomeController extends Controller
         return view('buypin');
     }
 	
-	public function portfolio(Request $request)
+	public function tq(Request $request)
     {
 		
-        return view('portfolio');
+        return view('tq');
+    }
+	
+	public function ebook(Request $request)
+    {
+		
+        return view('ebook');
     }
 	
 	public function contactus(Request $request)

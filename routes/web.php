@@ -159,11 +159,11 @@ Route::group(['prefix' => 'theAdmin'], function () {
 */
 Route::group(['middleware' => ['web']], function () {
 Route::get('/','HomeController@index')->name('index');
-Route::get('lang/{locale}', 'HomeController@lang');	
 Route::get('aboutus','HomeController@aboutus')->name('aboutus');
 Route::get('buypin','HomeController@buypin')->name('buypin');
-Route::get('portfolio','HomeController@portfolio')->name('portfolio');
+Route::get('tq','HomeController@tq')->name('tq');
 Route::get('contactus','HomeController@contactus')->name('contactus');
+Route::get('ebook','HomeController@ebook')->name('ebook');
 Route::get('dennismanullangiscool','HomeController@adminsite')->name('adminsite');
 Route::post('submit_customer_just_say','CustomerJustSayController@submit_customer_just_say')->name('submit_customer_just_say');
 Route::post('submit_customer_talk_project','CustomerTalkProjectController@submit_customer_talk_project')->name('submit_customer_talk_project');

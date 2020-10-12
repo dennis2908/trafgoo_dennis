@@ -18,8 +18,8 @@
                   <li class="active"><a href="{{route('index')}}">Home</a></li>
                   <li><a href="{{route('aboutus')}}">About Us</a></li>
                   <li><a href="{{route('buypin')}}">Buy Pin</a></li>
-                  <li><a href="{{route('buypin')}}">T&Q's</a></li>
-				  <li><a href="{{route('buypin')}}">eBook</a></li>
+                  <li><a href="{{route('tq')}}">T&Q's</a></li>
+				  <li><a href="{{route('ebook')}}">eBook</a></li>
 				  <li><a href="{{route('buypin')}}">Tutorial</a></li>
                   <li><a href="{{route('contactus')}}">Login</a></li>				 
                 </ul>
