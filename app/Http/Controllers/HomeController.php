@@ -22,10 +22,10 @@ class HomeController extends Controller
         return view('aboutus');
     }
 	
-	public function services(Request $request)
+	public function buypin(Request $request)
     {
 			
-        return view('services');
+        return view('buypin');
     }
 	
 	public function portfolio(Request $request)

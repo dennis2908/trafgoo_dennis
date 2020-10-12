@@ -10,23 +10,18 @@
                   <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="/">
-                  <img src="assets/images/logo/logo2.png" alt="ApecsaOS">
+                  <img src="assets/images/logo/logoTrafgoo.png" alt="ApecsaOS">
                 </a>
               </div>
               <div class="collapse navbar-collapse" id="navbar-apecsaos">
                 <ul class="nav navbar-nav navbar-right">
-                  <li class="active"><a href="{{route('index')}}">@lang('sentences.home')</a></li>
-                  <li><a href="{{route('aboutus')}}">@lang('sentences.about_us')</a></li>
-                  <li><a href="{{route('services')}}">@lang('sentences.our_services')</a></li>
-                  <li><a href="{{route('portfolio')}}">@lang('sentences.portofolio')</a></li>
-                  <li><a href="{{route('contactus')}}">@lang('sentences.contact_us')</a></li>
-				  
-				  <li><a href="{{ url('lang/id') }}" ><img src="{{asset('img/id.png')}}" width='30px'/> ID</a></li>
-
-				  <li><a href="{{ url('lang/en') }}" ><img src="{{asset('img/en.png')}}" width='30px'/> EN</a></li>
-
-
-				  
+                  <li class="active"><a href="{{route('index')}}">Home</a></li>
+                  <li><a href="{{route('aboutus')}}">About Us</a></li>
+                  <li><a href="{{route('buypin')}}">Buy Pin</a></li>
+                  <li><a href="{{route('buypin')}}">T&Q's</a></li>
+				  <li><a href="{{route('buypin')}}">eBook</a></li>
+				  <li><a href="{{route('buypin')}}">Tutorial</a></li>
+                  <li><a href="{{route('contactus')}}">Login</a></li>				 
                 </ul>
               </div>
             </div>

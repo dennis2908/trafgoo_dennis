@@ -5,7 +5,7 @@ header('Pragma: no-cache');
 header('Expires: 0');
 ?>
 <head>
- <title>PT. Baga Putra Mandiri - Portfolio</title>
+ <title>Trafgoo</title>
  <meta charset="utf-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -45,7 +45,7 @@ header('Expires: 0');
  <meta name="twitter:domain" content="website.com"/>
 
  <!-- SCOPE SHARE GOOGLE PLUS -->
- <meta itemprop="name" content="PT. Baga Putra Mandiri"/>
+ <meta itemprop="name" content="Trafgoo"/>
  <meta itemprop="description" content="Apecsa Optima Solusi (ApecsaOS) Bergerak di jasa pembuatan aplikasi, e-gov, erp, custom software, mobile application"/>
  <meta itemprop="image" content="https://website.com/image250X250.png"/>
 
@@ -58,6 +58,7 @@ header('Expires: 0');
  <link rel="stylesheet" href="{{asset('assets/css/animate.min.css')}}">
  <link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
  <link rel="stylesheet" href="{{asset('assets/css/main-responsive.css')}}">
+  <link rel="stylesheet" href="{{asset('assets/css/style4.css')}}">
 
  <script src="{{asset('assets/js/jquery-3.1.0.min.js')}}"></script>
 </head>

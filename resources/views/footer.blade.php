@@ -22,7 +22,7 @@
                 <img src="{{asset('assets/images/logo/logo2.png')}}" alt="">
               </div>
               <div class="corpyright">
-                <span>&copy; Copyright 2020 PT. Baga Putra Mandiri</span><br>
+                <span>&copy; Copyright 2020 Dennis Manullang +6288809615182</span><br>
                 <span>@lang('sentences.our_logo')</span>
               </div> 
             </div>

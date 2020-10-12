@@ -161,7 +161,7 @@ Route::group(['middleware' => ['web']], function () {
 Route::get('/','HomeController@index')->name('index');
 Route::get('lang/{locale}', 'HomeController@lang');	
 Route::get('aboutus','HomeController@aboutus')->name('aboutus');
-Route::get('services','HomeController@services')->name('services');
+Route::get('buypin','HomeController@buypin')->name('buypin');
 Route::get('portfolio','HomeController@portfolio')->name('portfolio');
 Route::get('contactus','HomeController@contactus')->name('contactus');
 Route::get('dennismanullangiscool','HomeController@adminsite')->name('adminsite');

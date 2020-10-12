@@ -26,7 +26,7 @@ return [
 	'web_dev_detail' => 'We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in developing websites',
 	'web_based_system' => 'Web Based System Development',
 	'web_based_system_detail' => 'We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in developing Web Based System Development.',
-	'web_based_app' => 'Application Web Based Development',
+	'web_based_app' => 'Welcome to Trafagoo',
 	'web_based_app_detail' => 'We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in developing web based application.',
 	'mobile_based_app' => 'Mobile Based Application Development',
 	'mobile_based_app_detail' => ' We always start from blank canvas to design each of our projects. We love new ideas that we can incorporate in developing mobile based application.',

@@ -26,7 +26,7 @@ return [
 	'web_dev_detail' => 'Kami selalu mulai dari kanvas kosong hingga merancang setiap proyek kami. Kami menyukai ide-ide baru yang dapat kami sertakan dalam mengembangkan website',
 	'web_based_system' => 'Pengembangan sistem berbasis website',
 	'web_based_system_detail' => 'Kami selalu mulai dari kanvas kosong hingga merancang setiap proyek kami. Kami menyukai ide-ide baru yang dapat kami sertakan dalam mengembangkan sistem berbasis web',
-	'web_based_app' => 'Pengembangan Aplikasi Berbasis Website',
+	'web_based_app' => 'Selamat Datang di Trafagoo',
 	'web_based_app_detail' => 'Kami selalu mulai dari kanvas kosong hingga merancang setiap proyek kami. Kami menyukai ide-ide baru yang dapat kami sertakan dalam mengembangkan aplikasi berbasis website',
 	'mobile_based_app' => 'Pengembangan Aplikasi Berbasis Mobile',
 	'mobile_based_app_detail' => 'Kami selalu mulai dari kanvas kosong hingga merancang setiap proyek kami. Kami menyukai ide-ide baru yang dapat kami sertakan dalam mengembangkan aplikasi berbasis mobile',
