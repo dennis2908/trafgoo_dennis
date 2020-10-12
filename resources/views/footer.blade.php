@@ -19,7 +19,7 @@
           <div class="col-md-12">
             <div class="box-footer">
               <div class="image">
-                <img src="{{asset('assets/images/logo/logo2.png')}}" alt="">
+                <img src="{{asset('assets/images/logo/logoTrafgoo.png')}}" style="width:40%" alt="">
               </div>
               <div class="corpyright">
                 <span>&copy; Copyright 2020 Dennis Manullang +6288809615182</span><br>
