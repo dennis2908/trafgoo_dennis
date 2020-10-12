@@ -157,7 +157,7 @@ Route::group(['prefix' => 'theAdmin'], function () {
 });
 
 */
-Route::group(['middleware' => ['web']], function () {
+Route::group(['middleware' => ['web','forceSSL']], function () {
 Route::get('/','HomeController@index')->name('index');
 Route::get('lang/{locale}', 'HomeController@lang');	
 Route::get('aboutus','HomeController@aboutus')->name('aboutus');
