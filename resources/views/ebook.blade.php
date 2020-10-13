@@ -86,9 +86,7 @@ ul a{
 hr{
     height:4px;
 }
-img{
-    border:3px solid ;
-}
+
 .card{
     text-align:center;
     background-color:black;
