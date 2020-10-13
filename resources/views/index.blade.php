@@ -76,7 +76,7 @@
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
-                  data-bgrepeat="no-repeat">
+                  data-bgrepeat="no-repeat" style="size:30%">
               </li>
 
               <li
@@ -91,7 +91,7 @@
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
-                  data-bgrepeat="no-repeat">
+                  data-bgrepeat="no-repeat" style="size:30%">
               </li>
               <li
                 data-transition="slideright"
@@ -105,7 +105,7 @@
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
-                  data-bgrepeat="no-repeat">
+                  data-bgrepeat="no-repeat" style="size:30%">
               </li>
             </ul>
             <div class="tp-bannertimer"></div>
@@ -192,8 +192,8 @@ When an advertiser pays for the message whether through print media or electroni
         jQuery('.slider-apecsa .tp-banner').show().revolution({
           delay:1000,
           startwidth:1,
-          startheight:620,
-          hideThumbs:600,
+          startheight:310,
+          hideThumbs:300,
 
           thumbWidth:80,
           thumbHeight:50,
@@ -263,18 +263,17 @@ When an advertiser pays for the message whether through print media or electroni
       }
 
     })(window.jQuery);
-  </script>
-  <script>
+	
     $(document).ready(function() {
 
       var owl = $("#owl-slide-testimonial");
      
       owl.owlCarousel({
           items : 100, //10 items above 1000px browser width
-          itemsDesktop : [1900,100], //5 items between 1000px and 901px
-          itemsDesktopSmall : [1250,100], // betweem 900px and 601px
-          itemsTablet: [1300,100], //2 items between 600 and 0
-          itemsMobile : false // itemsMobile disabled - inherit from itemsTablet option
+          itemsDesktop : [401,100], //5 items between 1000px and 901px
+          itemsDesktopSmall : [301,100], // betweem 900px and 601px
+          itemsTablet: [300,100], //2 items between 600 and 0
+          itemsMobile : true // itemsMobile disabled - inherit from itemsTablet option
       });
 
       // Custom Navigation Events
