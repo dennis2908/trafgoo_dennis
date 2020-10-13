@@ -34,7 +34,7 @@
                   <li><a href="{{route('buypin')}}">Buy Pin</a></li>
                   <li><a href="{{route('tq')}}">T&Q's</a></li>
 				  <li class="dropdown-submenu">
-                            <a class="submenu" data-toggle="dropdown" href="#">eBook<span class="caret"></span></a>
+                            <a class="submenu" data-toggle="dropdown" href="#">Tutorial<span class="caret"></span></a>
                             <ul class="dropdown-menu">
 							  <li><a href="#">Affiliate marketing Course (CERT)</a></li>
   <li><a href="#">Amazon Kindle publishing Course (CERT)</a></li>
@@ -66,7 +66,7 @@
 
                             </ul>
                         </li>
-				  <li><a href="{{route('ebook')}}">Tutorial</a></li>
+				  <li><a href="{{route('ebook')}}">Ebook</a></li>
                   <li><a href="{{route('contactus')}}">Login</a></li>
 				  
                 </ul>
