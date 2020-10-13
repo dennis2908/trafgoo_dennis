@@ -120,7 +120,7 @@
           <div class="col-md-12">
             <div class="box-title-desc">
               <div class="title color-black bdr-btm-gray">
-                <span class="bg-section" style="font-size:16px">Welcome to Trafagoo</span>
+                <span class="bg-section" style="font-size:14px">Welcome to Trafagoo</span>
               </div>
               <div class="desc color-black">
                 Invest and win more
