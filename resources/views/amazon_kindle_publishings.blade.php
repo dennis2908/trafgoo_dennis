@@ -48,9 +48,6 @@
 			  <div class="desc color-black">
                 <h2 align="center">Video Tutorial</h2>
         <hr>
-        <div style="text-align: justify;"><h1 style="text-align: center;">T-eBook
-</h1>
-    </header><br><br>
 
 
    <style>
@@ -107,11 +104,8 @@ hr{
     font-size:20px;
 }
                </style>
-               <br><br>
-         </div>
-         <br><br>
-<h1 align="center">T-VIDEO</h1>
-	<h2 style="text-align: center; color: white">Amazon Kindle publishing</h2><br><br>
+<h1 align="center" style="color:black">T-VIDEO</h1>
+	<h2 style="text-align: center; color: black">Amazon Kindle publishing</h2><br><br>
 	<iframe width="200" src="https://www.youtube.com/embed/BD79OmofxbE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="200" src="https://www.youtube.com/embed/BD79OmofxbE" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 	<iframe width="200" src="https://www.youtube.com/embed/MaQqNktICIo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
