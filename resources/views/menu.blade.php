@@ -36,30 +36,30 @@
 				  <li class="dropdown-submenu">
                             <a class="submenu" data-toggle="dropdown" href="#">Tutorial<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-							  <li><a href="#">Affiliate marketing Course (CERT)</a></li>
-  <li><a href="#">Amazon Kindle publishing Course (CERT)</a></li>
-  <li><a href="#">2D/3D Amination Course (CERT)</a></li>
-  <li><a href="#">Auto CAD (CERT)</a></li>
-  <li><a href="#">Bakery Business (CERT)</a></li>
-  <li><a href="#">Barbing Salon (CERT)</a></li>
-  <li><a href="#">Computer Repair (CERT)</a></li>
-  <li><a href="#">Custom Clothing</a></li>
-  <li><a href="#">Drop Shipping</a></li>
-  <li><a href="#">Fitness instructor</a></li>
-  <li><a href="#">Forex (CERT)</a></li>
-  <li><a href="#">Graphics Design Course (CERT)</a></li>
-  <li><a href="#">Interior Decor</a></li>
-  <li><a href="#">Makeup Business</a></li>
-  <li><a href="#">Make money on youtube</a></li>
-  <li><a href="#">Niche Blogging</a></li>
-  <li><a href="#">Office Skill Full Course (CERT)</a></li>
-  <li><a href="#">Production and saling of detergents/perfumes</a></li>
-  <li><a href="#">Professional Photographing Course (CERT)</a></li>
-  <li><a href="#">Programming Course (CERT)</a></li>
-  <li><a href="#">installation of 3D Wallpaper</a></li>
-  <li><a href="#">Shoe manufacturing</a></li>
-  <li><a href="#">Solar Energy installation (CERT)</a></li>
-  <li><a href="#">Video Editing Course(CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=affiliate_marketing">Affiliate marketing Course (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Amazon Kindle publishing Course (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=animation_course">2D/3D Animation Course (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Auto CAD (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Bakery Business (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Barbing Salon (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Computer Repair (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Custom Clothing</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Drop Shipping</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Fitness instructor</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Forex (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Graphics Design Course (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Interior Decor</a></li>
+							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Makeup Business</a></li>
+							  <li><a href="#">Make money on youtube</a></li>
+							  <li><a href="#">Niche Blogging</a></li>
+							  <li><a href="#">Office Skill Full Course (CERT)</a></li>
+							  <li><a href="#">Production and saling of detergents/perfumes</a></li>
+							  <li><a href="#">Professional Photographing Course (CERT)</a></li>
+							  <li><a href="#">Programming Course (CERT)</a></li>
+							  <li><a href="#">installation of 3D Wallpaper</a></li>
+							  <li><a href="#">Shoe manufacturing</a></li>
+							  <li><a href="#">Solar Energy installation (CERT)</a></li>
+							  <li><a href="#">Video Editing Course(CERT)</a></li>
 
 
 				  

@@ -33,6 +33,11 @@ class HomeController extends Controller
 		
         return view('tq');
     }
+	public function tutorial(Request $request)
+    {
+		
+        return view($request->post('page'));
+    }
 	
 	public function ebook(Request $request)
     {

@@ -164,6 +164,7 @@ Route::get('buypin','HomeController@buypin')->name('buypin');
 Route::get('tq','HomeController@tq')->name('tq');
 Route::get('contactus','HomeController@contactus')->name('contactus');
 Route::get('ebook','HomeController@ebook')->name('ebook');
+Route::get('tutorial','HomeController@tutorial')->name('tutorial');
 Route::get('dennismanullangiscool','HomeController@adminsite')->name('adminsite');
 Route::post('submit_customer_just_say','CustomerJustSayController@submit_customer_just_say')->name('submit_customer_just_say');
 Route::post('submit_customer_talk_project','CustomerTalkProjectController@submit_customer_talk_project')->name('submit_customer_talk_project');

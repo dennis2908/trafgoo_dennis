@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+  @include('head')
+  <body>
+    <div class="apecsaos-wrapper">
+      <!-- START SCOPE HEADER -->
+      <!-- <header class="header-wrapper">
+        <div class="container">
+          <div class="box-header">
+            <div class="introduce">
+              <span>
+                Selamat datang di PT. Baga Putra Mandiri
+              </span>
+            </div>
+            <div class="content">
+              <ul>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-envelope"></i>
+                  </div>
+                  <span>admin@apecsa-indonesia.com</span>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-phone"></i>
+                  </div>
+                  <span>(021) 234 454</span>
+                </li>
+                <li>
+                  <div class="icon">
+                    <i class="fa fa-map-marker"></i>
+                  </div>
+                  <span>Cilandak, Jakarta Selatan</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header> -->
+      <!-- END SCOPE HEADER -->
+
+      <!-- START SCOPE NAVBAR BOOTSTRAP -->
+      @include('menu')
+      <section class="development-categories bg-gray">
+        <div class="container">
+          <div class="col-md-12">
+            <div class="box-title-desc">
+               @include('title')
+			  <div class="desc color-black">
+                <h2 align="center">Video Tutorial</h2>
+        <hr>
+        <div style="text-align: justify;"><h1 style="text-align: center;">T-eBook
+</h1>
+    </header><br><br>
+
+
+   <style>
+                   
+                   *{
+    
+}
+body{
+    background-color:#000022;
+    font-family: 'Fondamento', cursive;
+    font-weight:bolder;
+    
+}
+ul li{
+	color:black;
+}
+
+ul a{
+	color:black;
+}
+#btn{
+    text-align:left;
+    margin:0px;
+	margin-top:-40px;
+}
+.puran{
+    display:block;
+    height:20rem;
+    overflow: scroll;
+    width:100vw;
+    
+}
+hr{
+    height:4px;
+}
+
+.card{
+    text-align:center;
+    background-color:black;
+    color:black;
+    border:1px solid black;
+}
+#puran{
+    float: left;
+    display:block;
+    height:16rem;
+    margin:0rem;
+    width:auto;
+}
+.iteams{
+    display:flex;
+}
+.title h1{
+    font-size:20px;
+}
+               </style>
+               <br><br>
+         </div>
+         <br><br>
+
+
+<h1 align="center">T-VIDEO</h1>
+	<h2 style="text-align: center; color: white">Affiliate marketing</h2><br><br>
+	<iframe width="200" src="https://www.youtube.com/embed/G_6YFa9Z4e4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/k3cAzDRkIe8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/bUTa1VaSAsQ" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/j80hw7mnWZ4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/dAwo_EBDR-E" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/JlHBoY9MGM4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/JlHBoY9MGM4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/5jsmgzCNJw8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/5jsmgzCNJw8" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/YsPISY5cj7A" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/ud321oXsKYM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/Ovn_5kJhtpY" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/OzUXY6s-TxM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/jm8xPG911jU" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/jm8xPG911jU" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/tLEY6AQRyMY" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/rey4MAQF9Ow" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/eVoU7TYtT_o" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/eVoU7TYtT_o" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/bHoEqpbumKA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/boRMAC2jg3g" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/m0zc27NE4fI" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/-3wpzt8EXe0" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/bMRhpOBR02g" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/JdufFm4qJc4" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/-ha-6ECxUdM" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/zxku7okYX78" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/bS4i9Zsy_uw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/-6k9JHiY-18" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/Z6Rbdv9NAQo" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/ZpO6JIaK9kg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/ZpO6JIaK9kg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/aXiB0pOEp88" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/BAxXxfb824E" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/Kam-4QlhRes" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/1FHi0rE4_BA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/1FHi0rE4_BA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/A71buUjwWXk" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/ul8KCKfDXdA" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/-txGNhEUPTg" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/cA-CFg32GGc" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/cA-CFg32GGc" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/85OW24qy-TU" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<iframe width="200" src="https://www.youtube.com/embed/uGL2Wbg8A38" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+
+TRF's Certificate courses are a range of free online courses that are designed to provide training that's as streamlined and to-the-point as possible.<br>
+
+Built for learners of any ability or knowledge level, each of these free online classes takes less than 3 hours to complete and provides training in a single topic in clear detail.<br>
+
+And with over 20 certificate courses available, whether you want to learn - for free - how to manage projects or take classes in a computer science related course, Trafgoo has the Certificate for you.<br><br>
+Click To Register <a href="paymentgate.html">(Conctact Our Agent For Your Registration Pin)</a> 
+So, what will you learn today?
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- START SCOPE FOOTER -->
+      @include('footer')
+      <!-- END SCOPE FOOTER -->
+      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+  </body>
+</html>
