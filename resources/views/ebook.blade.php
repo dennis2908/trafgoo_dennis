@@ -157,10 +157,21 @@ hr{
 
 <h1 align="center">T-VIDEO</h1>
 
-<video src="{{asset('assets/videos/php_introductory_tutorial.mp4')}}" controls="controls" width="200px" style="padding: 5px"></video>
-<video src="{{asset('assets/videos/videoedit.mp4')}}" controls="controls" width="200px" style="padding: 5px"></video>
-<video src="{{asset('assets/videos/React_js_1.mp4')}}" controls="controls" width="200px" style="padding: 5px"></video>
-<video src="{{asset('assets/videos/php_tutorial_1.mp4')}}" controls="controls" width="200px" style="padding: 5px"></video>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/fFRtT-wDZlE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/eVoU7TYtT_o" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/bHoEqpbumKA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/boRMAC2jg3g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/m0zc27NE4fI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/-3wpzt8EXe0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/bMRhpOBR02g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/JdufFm4qJc4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/-ha-6ECxUdM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/zxku7okYX78" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/bS4i9Zsy_uw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/-6k9JHiY-18" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/ZpO6JIaK9kg"frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/MaQqNktICIo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="25%" height="25%" src="https://www.youtube.com/embed/ao-h_zxdxAU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br><br>
 
 
@@ -174,33 +185,7 @@ And with over 20 certificate courses available, whether you want to learn - for 
 Click To Register <a href="paymentgate.html">(Conctact Our Agent For Your Registration Pin)</a> 
 So, what will you learn today?
 
-<ul style="color: black">
-  <br>
-  <li><a href="#">Affiliate marketing Course (CERT)</a></li>
-  <li><a href="#">Amazon Kindle publishing Course (CERT)</a></li>
-  <li><a href="#">2D/3D Amination Course (CERT)</a></li>
-  <li><a href="#">Auto CAD (CERT)</a></li>
-  <li><a href="#">Bakery Business (CERT)</a></li>
-  <li><a href="#">Barbing Salon (CERT)</a></li>
-  <li><a href="#">Computer Repair (CERT)</a></li>
-  <li><a href="#">Custom Clothing</a></li>
-  <li><a href="#">Drop Shipping</a></li>
-  <li><a href="#">Fitness instructor</a></li>
-  <li><a href="#">Forex (CERT)</a></li>
-  <li><a href="#">Graphics Design Course (CERT)</a></li>
-  <li><a href="#">Interior Decor</a></li>
-  <li><a href="#">Makeup Business</a></li>
-  <li><a href="#">Make money on youtube</a></li>
-  <li><a href="#">Niche Blogging</a></li>
-  <li><a href="#">Office Skill Full Course (CERT)</a></li>
-  <li><a href="#">Production and saling of detergents/perfumes</a></li>
-  <li><a href="#">Professional Photographing Course (CERT)</a></li>
-  <li><a href="#">Programming Course (CERT)</a></li>
-  <li><a href="#"> installation of 3D Wallpaper</a></li>
-  <li><a href="#">Shoe manufacturing</a></li>
-  <li><a href="#">Solar Energy installation (CERT)</a></li>
-  <li><a href="#">Video Editing Course(CERT)</a></li>
-</ul>
+
               </div>
             </div>
           </div>

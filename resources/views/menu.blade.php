@@ -1,3 +1,17 @@
+<style>
+.dropdown-submenu {
+        position: relative;
+    }
+
+    .dropdown-submenu .dropdown-menu {
+        top: 10;
+        margin-top: -1px;
+        overflow-y: scroll;
+		height:400px;
+		width:auto;
+		border-radius: 4px;	
+    }
+</style>
 <div id="navbar-fixed-apecsaos">
         <nav class="navbar navbar-default">
           <div class="container">
@@ -19,9 +33,42 @@
                   <li><a href="{{route('aboutus')}}">About Us</a></li>
                   <li><a href="{{route('buypin')}}">Buy Pin</a></li>
                   <li><a href="{{route('tq')}}">T&Q's</a></li>
-				  <li><a href="{{route('ebook')}}">eBook</a></li>
-				  <li><a href="{{route('buypin')}}">Tutorial</a></li>
-                  <li><a href="{{route('contactus')}}">Login</a></li>				 
+				  <li class="dropdown-submenu">
+                            <a class="submenu" data-toggle="dropdown" href="#">eBook<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+							  <li><a href="#">Affiliate marketing Course (CERT)</a></li>
+  <li><a href="#">Amazon Kindle publishing Course (CERT)</a></li>
+  <li><a href="#">2D/3D Amination Course (CERT)</a></li>
+  <li><a href="#">Auto CAD (CERT)</a></li>
+  <li><a href="#">Bakery Business (CERT)</a></li>
+  <li><a href="#">Barbing Salon (CERT)</a></li>
+  <li><a href="#">Computer Repair (CERT)</a></li>
+  <li><a href="#">Custom Clothing</a></li>
+  <li><a href="#">Drop Shipping</a></li>
+  <li><a href="#">Fitness instructor</a></li>
+  <li><a href="#">Forex (CERT)</a></li>
+  <li><a href="#">Graphics Design Course (CERT)</a></li>
+  <li><a href="#">Interior Decor</a></li>
+  <li><a href="#">Makeup Business</a></li>
+  <li><a href="#">Make money on youtube</a></li>
+  <li><a href="#">Niche Blogging</a></li>
+  <li><a href="#">Office Skill Full Course (CERT)</a></li>
+  <li><a href="#">Production and saling of detergents/perfumes</a></li>
+  <li><a href="#">Professional Photographing Course (CERT)</a></li>
+  <li><a href="#">Programming Course (CERT)</a></li>
+  <li><a href="#">installation of 3D Wallpaper</a></li>
+  <li><a href="#">Shoe manufacturing</a></li>
+  <li><a href="#">Solar Energy installation (CERT)</a></li>
+  <li><a href="#">Video Editing Course(CERT)</a></li>
+
+
+				  
+
+                            </ul>
+                        </li>
+				  <li><a href="{{route('ebook')}}">Tutorial</a></li>
+                  <li><a href="{{route('contactus')}}">Login</a></li>
+				  
                 </ul>
               </div>
             </div>
