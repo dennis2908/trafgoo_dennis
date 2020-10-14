@@ -38,16 +38,17 @@
                             <ul class="dropdown-menu">
 							  <li><a href="{{route('tutorial')}}?page=affiliate_marketing">Affiliate marketing Course (CERT)</a></li>
 							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Amazon Kindle publishing Course (CERT)</a></li>
-							  <li><a href="{{route('tutorial')}}?page=animation_course">2D/3D Animation Course (CERT)</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Auto CAD (CERT)</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Bakery Business (CERT)</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Barbing Salon (CERT)</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Computer Repair (CERT)</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Custom Clothing</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Drop Shipping</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Fitness instructor</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Forex (CERT)</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Graphics Design Course (CERT)</a></li>
+							  <li><a href="{{route('tutorial')}}?page=2d_adobe_animate">2D Adobe Aminate</a></li>
+							  <li><a href="{{route('tutorial')}}?page=3d_adobe_animate">3D Adobe Aminate</a></li>
+							  <li><a href="{{route('tutorial')}}?page=anti-aging_spa">Anti-aging Spa</a></li>
+							  <li><a href="{{route('tutorial')}}?page=autocad_full_course">Auto CAD Full Course</a></li>
+							  <li><a href="{{route('tutorial')}}?page=barbing_salon">Barbing Salon</a></li>
+							  <li><a href="{{route('tutorial')}}?page=computer_laptop_repair">Computer/Laptop Repair</a></li>
+							  <li><a href="{{route('tutorial')}}?page=custom_clothing">Custom Clothing</a></li>
+							  <li><a href="{{route('tutorial')}}?page=drop_shipping">Drop Shipping</a></li>
+							  <li><a href="{{route('tutorial')}}?page=fitness_instructor">Fitness instructor</a></li>
+							  <li><a href="{{route('tutorial')}}?page=forex">Forex</a></li>
+							  <li><a href="{{route('tutorial')}}?page=coreldraw">Coreldraw</a></li>
 							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Interior Decor</a></li>
 							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Makeup Business</a></li>
 							  <li><a href="#">Make money on youtube</a></li>
