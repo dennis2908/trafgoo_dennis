@@ -49,23 +49,21 @@
 							  <li><a href="{{route('tutorial')}}?page=fitness_instructor">Fitness instructor</a></li>
 							  <li><a href="{{route('tutorial')}}?page=forex">Forex</a></li>
 							  <li><a href="{{route('tutorial')}}?page=coreldraw">Coreldraw</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Interior Decor</a></li>
-							  <li><a href="{{route('tutorial')}}?page=amazon_kindle_publishings">Makeup Business</a></li>
-							  <li><a href="#">Make money on youtube</a></li>
-							  <li><a href="#">Niche Blogging</a></li>
-							  <li><a href="#">Office Skill Full Course (CERT)</a></li>
-							  <li><a href="#">Production and saling of detergents/perfumes</a></li>
-							  <li><a href="#">Professional Photographing Course (CERT)</a></li>
-							  <li><a href="#">Programming Course (CERT)</a></li>
-							  <li><a href="#">installation of 3D Wallpaper</a></li>
-							  <li><a href="#">Shoe manufacturing</a></li>
-							  <li><a href="#">Solar Energy installation (CERT)</a></li>
-							  <li><a href="#">Video Editing Course(CERT)</a></li>
-
-
-				  
-
-                            </ul>
+							  <li><a href="{{route('tutorial')}}?page=interior_decor">Interior Decor</a></li>
+							  <li><a href="{{route('tutorial')}}?page=makeup_business">Makeup Business</a></li>
+							  <li><a href="{{route('tutorial')}}?page=make_money_on_youtube">Make money on youtube</a></li>
+							  <li><a href="{{route('tutorial')}}?page=niche_blogging">Niche Blogging</a></li>
+							  <li><a href="{{route('tutorial')}}?page=office_skill_full_course">Office Skill Full Course</a></li>
+							  <li><a href="{{route('tutorial')}}?page=production_and_saling_of_detergents">Production and saling of detergents/perfumes</a></li>
+							  <li><a href="{{route('tutorial')}}?page=professional_photographer">Professional Photographer</a></li>
+							  <li><a href="{{route('tutorial')}}?page=programming_html">Programming HTML</a></li>
+							  <li><a href="{{route('tutorial')}}?page=sale_and_installation_of_3d">Sale and installation of 3D Wallpaper/panel</a></li>
+							  <li><a href="{{route('tutorial')}}?page=shoe_manufacturing">Shoe Manufacturing</a></li>
+							  <li><a href="{{route('tutorial')}}?page=solar_energy_installation">Solar Energy installation</a></li>
+							  <li><a href="{{route('tutorial')}}?page=mathematics_101">Mathematics 101</a></li>
+							  <li><a href="{{route('tutorial')}}?page=mathematics_102">Mathematics 102</a></li>
+							  <li><a href="{{route('tutorial')}}?page=mathematics_201">Mathematics 201</a></li>
+					        </ul>
                         </li>
 				  <li><a href="{{route('ebook')}}">Ebook</a></li>
                   <li><a href="{{route('contactus')}}">Login</a></li>
