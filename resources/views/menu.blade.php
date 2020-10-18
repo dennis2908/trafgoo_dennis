@@ -12,7 +12,7 @@
 		border-radius: 4px;	
     }
 	.apecsaos-wrapper{
-		 background-color:white
+		 background-color:white;
 	}
 </style>
 <div id="navbar-fixed-apecsaos">
@@ -179,11 +179,11 @@
         jQuery('.slider-apecsa .tp-banner').show().revolution({
           delay:1000,
           startwidth:1,
-          startheight:310,
+          startheight:910,
           hideThumbs:300,
 
-          thumbWidth:80,
-          thumbHeight:50,
+          thumbWidth:800,
+          thumbHeight:500,
           thumbAmount:5,
 
           navigationType:"bullet",
@@ -245,7 +245,8 @@
           hideAllCaptionAtLilmit:0,
           startWithSlide:1,
           videoJsPath:"",
-          fullScreenOffsetContainer: ".slider-apecsa"
+          fullScreenOffsetContainer: ".slider-apecsa",
+
         });
       }
 
