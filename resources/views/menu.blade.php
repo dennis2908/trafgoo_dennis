@@ -12,7 +12,7 @@
 		border-radius: 4px;	
     }
 	.apecsaos-wrapper{
-		background-color:white
+		 background-color:white
 	}
 </style>
 <div id="navbar-fixed-apecsaos">
@@ -117,11 +117,11 @@
                 data-transition="slotzoom-horizontal"
                 data-slotamount="3"
                 data-masterspeed="3000"
-                data-thumb="{{asset('assets/images/trafagoo.jpg')}}"
+                data-thumb="{{asset('assets/images/webs1.jpg')}}"
                 data-saveperformance="off"
                 data-title="@lang('sentences.contact_us')">
                 <img
-                  src="{{asset('assets/images/trafagoo.jpg')}}"
+                  src="{{asset('assets/images/payincrease.jpg')}}"
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
@@ -132,11 +132,11 @@
                 data-transition="curtain-3"
                 data-slotamount="3"
                 data-masterspeed="3000"
-                data-thumb="{{asset('assets/images/trafagoo.jpg')}}"
+                data-thumb="{{asset('assets/images/webs1.jpg')}}"
                 data-saveperformance="off"
                 data-title="@lang('sentences.with_awesome_service')">
                 <img
-                  src="{{asset('assets/images/trafagoo.jpg')}}"
+                  src="{{asset('assets/images/payincrease.jpg')}}"
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
@@ -154,7 +154,7 @@
                   alt=""
                   data-bgposition="center top"
                   data-bgfit="cover"
-                  data-bgrepeat="no-repeat" style="size:30%">
+                  data-bgrepeat="no-repeat" style="size:10%">
               </li>
             </ul>
             <div class="tp-bannertimer"></div>
@@ -257,9 +257,9 @@
      
       owl.owlCarousel({
           items : 100, //10 items above 1000px browser width
-          itemsDesktop : [401,100], //5 items between 1000px and 901px
-          itemsDesktopSmall : [301,100], // betweem 900px and 601px
-          itemsTablet: [300,100], //2 items between 600 and 0
+          itemsDesktop : [100,100], //5 items between 1000px and 901px
+          itemsDesktopSmall : [100,100], // betweem 900px and 601px
+          itemsTablet: [100,100], //2 items between 600 and 0
           itemsMobile : true // itemsMobile disabled - inherit from itemsTablet option
       });
 
