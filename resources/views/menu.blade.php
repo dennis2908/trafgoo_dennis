@@ -142,7 +142,7 @@
                   data-bgfit="cover"
                   data-bgrepeat="no-repeat" style="size:30%">
               </li>
-              <li
+              <li style="width:30px"
                 data-transition="slideright"
                 data-slotamount="3"
                 data-masterspeed="3000"
@@ -150,11 +150,11 @@
                 data-saveperformance="off"
                 data-title="@lang('sentences.we_are_awesome')">
                 <img
-                  src="{{asset('assets/images/trafagoo.jpg')}}"
-                  alt=""
-                  data-bgposition="center top"
-                  data-bgfit="cover"
-                  data-bgrepeat="no-repeat" style="size:10%">
+                  src="{{asset('assets/images/trafagoo.jpg')}}" style=" height:50%;
+  width:50%;
+  position:absolute;
+  left:0;
+  top:0;" />
               </li>
             </ul>
             <div class="tp-bannertimer"></div>
@@ -179,11 +179,11 @@
         jQuery('.slider-apecsa .tp-banner').show().revolution({
           delay:1000,
           startwidth:1,
-          startheight:910,
+          startheight:310,
           hideThumbs:300,
 
-          thumbWidth:800,
-          thumbHeight:500,
+          thumbWidth:80,
+          thumbHeight:50,
           thumbAmount:5,
 
           navigationType:"bullet",
@@ -220,7 +220,7 @@
           soloArrowRightVOffset:0,
 
           shadow:0,
-          fullWidth:"on",
+          fullWidth:"off",
           fullScreen:"off",
 
           spinner:"spinner4",
@@ -257,10 +257,10 @@
       var owl = $("#owl-slide-testimonial");
      
       owl.owlCarousel({
-          items : 100, //10 items above 1000px browser width
-          itemsDesktop : [100,100], //5 items between 1000px and 901px
-          itemsDesktopSmall : [100,100], // betweem 900px and 601px
-          itemsTablet: [100,100], //2 items between 600 and 0
+          items : 10, //10 items above 1000px browser width
+          itemsDesktop : [10,10], //5 items between 1000px and 901px
+          itemsDesktopSmall : [10,10], // betweem 900px and 601px
+          itemsTablet: [10,10], //2 items between 600 and 0
           itemsMobile : true // itemsMobile disabled - inherit from itemsTablet option
       });
 
