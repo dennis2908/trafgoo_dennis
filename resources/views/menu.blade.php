@@ -11,6 +11,9 @@
 		width:auto;
 		border-radius: 4px;	
     }
+	.apecsaos-wrapper{
+		background-color:white
+	}
 </style>
 <div id="navbar-fixed-apecsaos">
         <nav class="navbar navbar-default">
