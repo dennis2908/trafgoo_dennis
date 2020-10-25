@@ -36,6 +36,7 @@
                   <li><a href="{{route('aboutus')}}">About Us</a></li>
                   <li><a href="{{route('buypin')}}">Buy Pin</a></li>
                   <li><a href="{{route('tq')}}">T&Q's</a></li>
+				  @if(session()->has('user'))
 				  <li class="dropdown-submenu">
                             <a class="submenu" data-toggle="dropdown" href="#">Tutorial<span class="caret"></span></a>
                             <ul class="dropdown-menu">
@@ -67,9 +68,15 @@
 							  <li><a href="{{route('tutorial')}}?page=mathematics_102">Mathematics 102</a></li>
 							  <li><a href="{{route('tutorial')}}?page=mathematics_201">Mathematics 201</a></li>
 					        </ul>
-                        </li>
+                  </li>
+				  @endif
 				  <li><a href="{{route('ebook')}}">Ebook</a></li>
-                  <li><a href="{{route('contactus')}}">Login</a></li>
+				  @if(Session::has('user'))
+					<li><a href="{{route('logout')}}">Logout</a></li>
+				  @else
+					<li><a href="{{route('login')}}">Login</a></li>  
+				  @endif
+			 
 				  
                 </ul>
               </div>

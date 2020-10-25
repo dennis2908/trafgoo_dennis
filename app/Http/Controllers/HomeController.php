@@ -5,11 +5,14 @@ use App;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use View;
-use Session;
 use Redirect;
 
 class HomeController extends Controller
 {
+	public function __construct()
+    {
+		$this->user = new \App\models\pengguna();
+    }
 	
     public function index(Request $request)
     {
@@ -51,15 +54,30 @@ class HomeController extends Controller
         return view('contactus');
     }
 	
+	public function dologin(Request $request)
+    {
+		
+		if($this->user->ceklogin($request))
+			$this->user->Session::put('user', $request->username);
+        return Redirect()->route('index');
+    }
+	
+	public function login()
+    {
+		
+        return view('login');
+    }
+	
+	
 	public function adminsite(Request $request)
     {
 		
         return view('template/index');
     }
 	
-	public function lang($locale)
+	public function logout()
     {
-	   Session::put('locale', $locale);
+	   $this->user->Session::forget('user');
 	   return redirect()->back();
     }
 

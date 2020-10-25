@@ -13,7 +13,7 @@ class customer_just_say extends Model
         'full_name', 'email','phone','company_name','description'
     ];
 	
-	public function insert_customer_just_say($post_data=array()){
+	public function ceklogin($post_data=array()){
 		unset($post_data['_token']);
 		return DB::table($this->table)->insert($post_data);
 		//dd(DB::getQueryLog());
