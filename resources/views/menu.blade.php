@@ -69,11 +69,11 @@
 							  <li><a href="{{route('tutorial')}}?page=mathematics_201">Mathematics 201</a></li>
 					        </ul>
                   </li>
-				  @endif
 				  <li><a href="{{route('ebook')}}">Ebook</a></li>
-				  @if(Session::has('user'))
-					<li><a href="{{route('logout')}}">Logout</a></li>
-				  @else
+				  <li><a href="{{route('logout')}}">Logout</a></li>
+				  @endif
+
+				  @if(!Session::has('user'))
 					<li><a href="{{route('login')}}">Login</a></li>  
 				  @endif
 			 
