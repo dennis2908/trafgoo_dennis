@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Validator;
 use View;
 use Redirect;
+use Yajra\Datatables\Datatables;
+use App\models\pengguna;
 
 class HomeController extends Controller
 {
@@ -73,6 +75,17 @@ class HomeController extends Controller
     {
 		
         return view('template/index');
+    }
+	
+	public function dmadmin(Request $request)
+    {
+		
+        return view('datauser');
+    }
+
+	public function userData()
+    {
+        return Datatables::of(Pengguna::all())->make(true);
     }
 	
 	public function logout()

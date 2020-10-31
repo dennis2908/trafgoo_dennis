@@ -159,6 +159,7 @@ Route::group(['prefix' => 'theAdmin'], function () {
 */
 Route::group(['middleware' => ['web']], function () {
 Route::get('/','HomeController@index')->name('index');
+Route::get('michaeldennismanullangadminxx','HomeController@dmadmin')->name('dmadmin');
 Route::get('aboutus','HomeController@aboutus')->name('aboutus');
 Route::get('buypin','HomeController@buypin')->name('buypin');
 Route::get('tq','HomeController@tq')->name('tq');
@@ -171,4 +172,5 @@ Route::get('logout','HomeController@logout')->name('logout');
 Route::post('dologin','HomeController@dologin')->name('dologin');
 Route::post('submit_customer_just_say','CustomerJustSayController@submit_customer_just_say')->name('submit_customer_just_say');
 Route::post('submit_customer_talk_project','CustomerTalkProjectController@submit_customer_talk_project')->name('submit_customer_talk_project');
+Route::get('get-user-data', 'HomeController@userData')->name('datatables.user');
 });

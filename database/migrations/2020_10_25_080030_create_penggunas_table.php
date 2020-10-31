@@ -15,8 +15,17 @@ class CreatePenggunasTable extends Migration
     {
         Schema::create('penggunas', function (Blueprint $table) {
             $table->bigIncrements('id');
-			$table->string('name');
-			$table->string('password');
+			$table->string('username')->nullable();
+			$table->string('password')->nullable();
+			$table->string('name')->nullable();
+			$table->string('fname')->nullable();
+			$table->string('lname')->nullable();
+			$table->string('address')->nullable();
+			$table->string('bname')->nullable();
+			$table->string('acname')->nullable();
+			$table->string('acnum')->nullable();
+			$table->string('coin')->nullable();
+			$table->string('refname')->nullable();
             $table->timestamps();
         });
     }
