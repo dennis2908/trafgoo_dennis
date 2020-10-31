@@ -85,7 +85,7 @@ class HomeController extends Controller
 
 	public function userData()
     {
-        return Datatables::of(Pengguna::all())->make(true);
+        return Datatables::of($this->user->getPengguna())->make(true);
     }
 	
 	public function logout()

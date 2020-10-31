@@ -17,4 +17,8 @@ class pengguna extends MyModel
 		return $this->DB::table($this->table)->where('username',$post_data->username)->where('password',$post_data->password)->first();
 		//dd(DB::getQueryLog());
 	}
+	public function getPengguna($post_data=array()){
+		return $this->DB::table($this->table)->get();
+		//dd(DB::getQueryLog());
+	}
 }
