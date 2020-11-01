@@ -67,8 +67,6 @@
 				<th>acnum</th>
                 <th>coin</th>
 				<th>refname</th>
-                <th>Created At</th>
-                <th>Updated At</th>
             </tr>
         </thead>
     </table>
@@ -125,9 +123,7 @@ $(function() {
 			{ data: 'acname', name: 'acname' },
             { data: 'acnum', name: 'acnum' },
 			{ data: 'coin', name: 'coin' },
-            { data: 'refname', name: 'refname' },
-            { data: 'created_at', name: 'created_at' },
-            { data: 'updated_at', name: 'updated_at' }
+            { data: 'refname', name: 'refname' }
         ]
     });
 });
