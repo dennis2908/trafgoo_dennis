@@ -4,47 +4,47 @@
 <h3>Data User</h3>
  <form action="{!! route('saveuser') !!}" id="form-user">
  @csrf
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="username">username:</label>
     <input type="username" class="form-control" name="username" required>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="password">password:</label>
     <input type="password" class="form-control" name="password" required>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="name">name:</label>
     <input type="name" class="form-control" name="name" required>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="fname">fname:</label> 
     <input type="fname" class="form-control" name="fname" required>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="lname">lname:</label>
     <input type="lname" class="form-control" name="lname" required>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="address">address:</label>
-    <input type="address" class="form-control" name="address" required>
+    <textarea class="form-control" name="address" required></textarea>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="bname">bname:</label>
     <input type="bname" class="form-control" name="bname" required>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="acname">acname:</label>
     <input type="acname" class="form-control" name="acname" required>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="acnum">acnum:</label>
     <input type="acnum" class="form-control" name="acnum" required>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="coin">coin:</label>
     <input type="number" class="form-control" name="coin" required>
   </div>
-  <div class="form-group col-xs-3">
+  <div class="form-group col-xs-4">
     <label for="refname">refname:</label>
     <input type="refname" class="form-control" name="refname" required>
   </div>
