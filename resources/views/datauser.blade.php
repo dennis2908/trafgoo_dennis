@@ -56,7 +56,7 @@
     <table class="table table-bordered" id="user-table">
         <thead>
             <tr>
-                <th>Id</th>
+                <th>No</th>
                 <th>username</th>
 				<th>password</th>
                 <th>fname</th>
@@ -117,7 +117,11 @@ $(function() {
 		},
 		oLanguage: {sProcessing: "&nbsp;"},
         columns: [
-            { data: 'id', name: 'id' },
+		    { "data": null,"sortable": false, 
+			   render: function (data, type, row, meta) {
+						 return meta.row + meta.settings._iDisplayStart + 1;
+						}  
+			},
             { data: 'username', name: 'username' },
             { data: 'password', name: 'password' },
 			{ data: 'fname', name: 'fname' },
@@ -128,7 +132,7 @@ $(function() {
             { data: 'acnum', name: 'acnum' },
 			{ data: 'coin', name: 'coin' },
             { data: 'refname', name: 'refname' }
-        ]
+        ],
     });
 });
 </script>
