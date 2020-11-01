@@ -84,6 +84,7 @@ $(function() {
 		$.ajax({
 			   type: "POST",
 			   url: url,
+			   async: false,
 			   data: form.serialize(), // serializes the form's elements.
 			    beforeSend: function() {
 					$('body').css('background-image', 'url("{!! asset('gif/ajax_loader.gif') !!}")');
@@ -98,17 +99,20 @@ $(function() {
 
 		
 	});
+	
+	$('#user-table').on('xhr.dt', function ( e, settings, json, xhr ) {
+        $('body').css('background-image', '');
+    } );
+	
     $('#user-table').DataTable({
         processing: true,
         serverSide: true,
         ajax: {
 		  url: '{!! route('datatables.user') !!}',
 		  type: "get",
+		  async: false,
 		  beforeSend: function() {
 			 $('body').css('background-image', 'url("{!! asset('gif/ajax_loader.gif') !!}")');
-		  },
-		  complete: function() {
-			 $('body').css('background-image', '');
 		  }
 		},
 		oLanguage: {sProcessing: "&nbsp;"},
