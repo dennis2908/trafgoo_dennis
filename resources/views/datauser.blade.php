@@ -6,7 +6,7 @@
  @csrf
   <div class="form-group col-xs-4">
     <label for="username">username:</label>
-    <input type="username" class="form-control" name="username" required>
+    <input type="text" class="form-control" name="username" required>
   </div>
   <div class="form-group col-xs-4">
     <label for="password">password:</label>
@@ -14,39 +14,43 @@
   </div>
   <div class="form-group col-xs-4">
     <label for="name">name:</label>
-    <input type="name" class="form-control" name="name" required>
+    <input type="text" class="form-control" name="name" required>
   </div>
   <div class="form-group col-xs-4">
-    <label for="fname">fname:</label> 
-    <input type="fname" class="form-control" name="fname" required>
+    <label for="email">email:</label>
+    <input type="email" class="form-control" name="email" required>
   </div>
   <div class="form-group col-xs-4">
-    <label for="lname">lname:</label>
-    <input type="lname" class="form-control" name="lname" required>
+    <label for="bank_name">bank name:</label> 
+    <input type="text" class="form-control" name="bank_name" required>
   </div>
   <div class="form-group col-xs-4">
-    <label for="address">address:</label>
-    <textarea class="form-control" name="address" required></textarea>
+    <label for="acc_name">acc name:</label>
+    <input type="text" class="form-control" name="acc_name" required>
   </div>
-  <div class="form-group col-xs-4">
-    <label for="bname">bname:</label>
-    <input type="bname" class="form-control" name="bname" required>
-  </div>
-  <div class="form-group col-xs-4">
-    <label for="acname">acname:</label>
-    <input type="acname" class="form-control" name="acname" required>
-  </div>
-  <div class="form-group col-xs-4">
-    <label for="acnum">acnum:</label>
-    <input type="acnum" class="form-control" name="acnum" required>
+    <div class="form-group col-xs-4">
+    <label for="acc_no">acc no:</label>
+    <input type="text" class="form-control" name="acc_no" required>
   </div>
   <div class="form-group col-xs-4">
     <label for="coin">coin:</label>
-    <input type="number" class="form-control" name="coin" required>
+    <input type="text" class="form-control" name="coin" required>
   </div>
   <div class="form-group col-xs-4">
-    <label for="refname">refname:</label>
-    <input type="refname" class="form-control" name="refname" required>
+    <label for="ref_name">ref name:</label>
+    <input type="text" class="form-control" name="ref_name" required>
+  </div>
+  <div class="form-group col-xs-4">
+    <label for="status">status:</label>
+    <input type="status" class="form-control" name="status" required>
+  </div>
+  <div class="form-group col-xs-4">
+    <label for="amount">amount:</label>
+    <input type="number" class="form-control" name="amount" required>
+  </div>
+  <div class="form-group col-xs-4">
+    <label for="payout">payout:</label>
+    <input type="number" class="form-control" name="payout" required>
   </div>
   <div class="form-group col-xs-12">
     <button type="submit" class="btn btn-success">Process</button>
@@ -59,14 +63,16 @@
                 <th>No</th>
                 <th>username</th>
 				<th>password</th>
-                <th>fname</th>
-				<th>lname</th>
-                <th>address</th>
-				<th>bname</th>
-                <th>acname</th>
-				<th>acnum</th>
+                <th>name</th>
+				<th>email id</th>
+                <th>bank name</th>
+				<th>acc name</th>
+				<th>acc no</th>
                 <th>coin</th>
-				<th>refname</th>
+				<th>ref name</th>
+                <th>status</th>
+				<th>amount</th>
+				<th>payout</th>
             </tr>
         </thead>
     </table>
@@ -117,21 +123,23 @@ $(function() {
 		},
 		oLanguage: {sProcessing: "&nbsp;"},
         columns: [
-		    { "data": null,"sortable": false, 
+		    { data: null,"sortable": false, 
 			   render: function (data, type, row, meta) {
 						 return meta.row + meta.settings._iDisplayStart + 1;
 						}  
 			},
             { data: 'username', name: 'username' },
             { data: 'password', name: 'password' },
-			{ data: 'fname', name: 'fname' },
-            { data: 'lname', name: 'lname' },
-			{ data: 'address', name: 'address' },
-            { data: 'bname', name: 'bname' },
-			{ data: 'acname', name: 'acname' },
-            { data: 'acnum', name: 'acnum' },
+			{ data: 'name', name: 'name' },
+			{ data: 'email', name: 'email' },
+            { data: 'bank_name', name: 'bank_name' },
+			{ data: 'acc_name', name: 'acc_name' },
+            { data: 'acc_no', name: 'acc_no' },
 			{ data: 'coin', name: 'coin' },
-            { data: 'refname', name: 'refname' }
+            { data: 'ref_name', name: 'ref_name' },
+			{ data: 'status', name: 'status' },
+            { data: 'amount', name: 'amount' },
+			{ data: 'payout', name: 'payout' }
         ],
     });
 });
