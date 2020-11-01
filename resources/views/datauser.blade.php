@@ -49,7 +49,7 @@
     <input type="refname" class="form-control" name="refname" required>
   </div>
   <div class="form-group col-xs-12">
-    <button type="submit" class="btn btn-success">Submit</button>
+    <button type="submit" class="btn btn-success">Process</button>
   </div>
   
 </form> 
