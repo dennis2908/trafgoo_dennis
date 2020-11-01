@@ -21,4 +21,10 @@ class pengguna extends MyModel
 		return $this->DB::table($this->table)->get();
 		//dd(DB::getQueryLog());
 	}
+	public function saveuser($post_data=array()){
+		$data = $post_data->post();
+		unset($data['_token']);
+		return $this->DB::table($this->table)->insert($data);
+		//dd(DB::getQueryLog());
+	}
 }

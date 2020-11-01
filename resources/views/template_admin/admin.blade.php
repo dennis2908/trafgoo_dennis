@@ -13,7 +13,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
 		body {
-		  font-family: "Lato", sans-serif;
+		  font-family: "Lato", sans-serif;center center;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+			z-index: 9999999;
 		}
 
 		.sidenav {
@@ -50,6 +56,15 @@
 		  .sidenav {padding-top: 15px;}
 		  .sidenav a {font-size: 14px;}
 		}
+		#loading {
+			background: url('{!! asset('gif/ajax_loader.gif') !!}') center center;
+			position: absolute;
+			top: 0;
+			left: 0;
+			height: 100%;
+			width: 100%;
+
+		}
 		</style>
     </head>
     <body>
@@ -69,6 +84,11 @@
         <!-- Bootstrap JavaScript -->
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <!-- App scripts -->
+		<script>
+		$(function() {
+			 $('body').css('background-image', 'url("{!! asset('gif/ajax_loader.gif') !!}")');
+		})
+		</script>
         @stack('scripts')
     </body>
 </html>

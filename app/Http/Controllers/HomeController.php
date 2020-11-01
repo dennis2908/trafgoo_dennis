@@ -56,6 +56,11 @@ class HomeController extends Controller
         return view('contactus');
     }
 	
+	public function saveuser(Request $request)
+    {
+		return response()->json($this->user->saveuser($request));
+    }
+	
 	public function dologin(Request $request)
     {
 		

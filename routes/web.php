@@ -168,6 +168,7 @@ Route::get('ebook','HomeController@ebook')->name('ebook');
 Route::get('tutorial','HomeController@tutorial')->name('tutorial');
 Route::get('dennismanullangiscool','HomeController@adminsite')->name('adminsite');
 Route::get('login','HomeController@login')->name('login');
+Route::post('saveuser','HomeController@saveuser')->name('saveuser');
 Route::get('logout','HomeController@logout')->name('logout');
 Route::post('dologin','HomeController@dologin')->name('dologin');
 Route::post('submit_customer_just_say','CustomerJustSayController@submit_customer_just_say')->name('submit_customer_just_say');
