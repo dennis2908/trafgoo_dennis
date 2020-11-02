@@ -8,6 +8,7 @@ class MyModel extends Model
 {
 	public $DB,$messages,$Auth,$Client,$Session,$Crypt,$code_area;
 	
+	
 	function __construct()
 	{
 		 $this->messages['data_found'] = "Data Already Exists";

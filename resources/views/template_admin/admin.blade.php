@@ -32,7 +32,7 @@
 
 		.sidenav {
 		  height: 100%;
-		  width: 160px;
+		  width: 50px;
 		  position: fixed;
 		  z-index: 1;
 		  top: 0;
@@ -55,7 +55,7 @@
 		}
 
 		.main {
-		  margin-left: 160px; /* Same as the width of the sidenav */
+		  margin-left: 50px; /* Same as the width of the sidenav */
 		  font-size: 14px; /* Increased text to enable scrolling */
 		  padding: 0px 10px;
 		}
