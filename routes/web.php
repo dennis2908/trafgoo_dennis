@@ -174,4 +174,5 @@ Route::post('dologin','HomeController@dologin')->name('dologin');
 Route::post('submit_customer_just_say','CustomerJustSayController@submit_customer_just_say')->name('submit_customer_just_say');
 Route::post('submit_customer_talk_project','CustomerTalkProjectController@submit_customer_talk_project')->name('submit_customer_talk_project');
 Route::get('get-user-data', 'HomeController@userData')->name('datatables.user');
+Route::get('getDataById', 'HomeController@getDataById')->name('datatables.getDataById');
 });

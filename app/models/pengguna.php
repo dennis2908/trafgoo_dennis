@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class pengguna extends MyModel
 {
-    public $table = 'penggunas';
+    public $table = 'penggunas';	
 	
     protected $fillable = [
         'name', 'password'
@@ -21,9 +21,17 @@ class pengguna extends MyModel
 		return $this->DB::table($this->table)->get();
 		//dd(DB::getQueryLog());
 	}
+	
+	public function updateuser($post_data=array()){
+		$data = $post_data->post();
+		unset($data['_token']);
+		return $this->DB::table($this->table)->where('id',$data['id'])->update($data);
+		//dd(DB::getQueryLog());
+	}
 	public function saveuser($post_data=array()){
 		$data = $post_data->post();
 		unset($data['_token']);
+		unset($data['id']);
 		return $this->DB::table($this->table)->insert($data);
 		//dd(DB::getQueryLog());
 	}

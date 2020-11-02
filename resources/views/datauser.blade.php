@@ -7,6 +7,7 @@
   <div class="form-group col-xs-4">
     <label for="username">username:</label>
     <input type="text" class="form-control" name="username" required>
+	<input type="hidden" class="form-control" name="id">
   </div>
   <div class="form-group col-xs-4">
     <label for="password">password:</label>
@@ -57,10 +58,11 @@
   </div>
   
 </form> 
-    <table class="table table-bordered" id="user-table">
+    <table class="table table-bordered" id="user-table" >
         <thead>
             <tr>
                 <th>No</th>
+				<th>action</th>
                 <th>username</th>
 				<th>password</th>
                 <th>name</th>
@@ -99,9 +101,10 @@ $(function() {
 			   {
 				   $('body').css('background-image', '');
 				   $('#user-table').DataTable().draw();
+				   $('[name ="id"]').val("");
 				   $('form').trigger("reset");
 			   }
-			 });
+		});
 
 		
 	});
@@ -128,6 +131,7 @@ $(function() {
 						 return meta.row + meta.settings._iDisplayStart + 1;
 						}  
 			},
+			{ data: 'action', name: 'action' },
             { data: 'username', name: 'username' },
             { data: 'password', name: 'password' },
 			{ data: 'name', name: 'name' },
@@ -141,7 +145,48 @@ $(function() {
             { data: 'amount', name: 'amount' },
 			{ data: 'payout', name: 'payout' }
         ],
+		scrollY:        "300px",
+        scrollX:        true,
+        scrollCollapse: true,
+        columnDefs: [
+			{ width: 50, targets: 0 },
+            { width: 150, targets: 1 },
+			{ width: 150, targets: 2 },
+			{ width: 150, targets: 3 },
+			{ width: 150, targets: 4 },
+			{ width: 150, targets: 5 },
+			{ width: 150, targets: 6 },
+			{ width: 150, targets: 7 },
+			{ width: 150, targets: 8 },
+			{ width: 150, targets: 9 },
+			{ width: 150, targets: 10 },
+			{ width: 150, targets: 11 },
+			{ width: 150, targets: 12 },
+			{ width: 150, targets: 13 },
+        ],
+        fixedColumns: true
     });
+	
 });
+function getData(id){
+		
+		$.ajax({
+			   type: "GET",
+			   url: '{!! route('datatables.getDataById') !!}',
+			   async: false,
+			    data: {id:id}, // serializes the form's elements.
+			    beforeSend: function() {
+					$('body').css('background-image', 'url("{!! asset('gif/ajax_loader.gif') !!}")');
+				},
+			   success: function(result)
+			   {
+				   $('body').css('background-image', '');
+				   jQuery.each(result, function(k,v) {
+						$('[name ="'+k+'"]').val(v);
+				   });
+			   }
+		});
+		
+	}
 </script>
 @endpush

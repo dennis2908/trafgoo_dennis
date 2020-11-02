@@ -58,7 +58,13 @@ class HomeController extends Controller
 	
 	public function saveuser(Request $request)
     {
-		return response()->json($this->user->saveuser($request));
+		if($request->id == ""){
+			$result = $this->user->saveuser($request);
+		}
+		else{
+			$result = $this->user->updateuser($request);
+		}
+		return response()->json($result);
     }
 	
 	public function dologin(Request $request)
@@ -87,10 +93,24 @@ class HomeController extends Controller
 		
         return view('datauser');
     }
+	
+	public function getDataById(Request $request)
+    {
+		return response()->json($this->user::find($request->post('id')));
+		
+        return view('datauser');
+    }
 
 	public function userData()
     {
-        return Datatables::of($this->user->getPengguna())->make(true);
+        return Datatables::of($this->user->getPengguna())->addColumn('action',function ($data){
+                return $this->getActionColumn($data);
+            })->make(true);
+    }
+	
+	protected function getActionColumn($data): string
+    {
+        return "<i class='btn btn-info' onclick=getData('$data->id')>Edit</i>&nbsp;<i class='btn btn-danger' onclick=deleteData('$data->id')>Delete</i>";
     }
 	
 	public function logout()

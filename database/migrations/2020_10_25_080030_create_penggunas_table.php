@@ -25,8 +25,8 @@ class CreatePenggunasTable extends Migration
 			$table->string('coin')->nullable();
 			$table->string('ref_name')->nullable();
 			$table->string('status')->nullable();
-			$table->string('amount')->nullable();
-			$table->string('payout')->nullable();
+			$table->integer('amount')->nullable();
+			$table->integer('payout')->nullable();
             $table->timestamps();
         });
     }
