@@ -4,52 +4,52 @@
 <h3>Data User</h3>
  <form action="{!! route('saveuser') !!}" id="form-user">
  @csrf
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="username">username:</label>
     <input type="text" class="form-control" name="username" required>
 	<input type="hidden" class="form-control" name="id">
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="password">password:</label>
     <input type="password" class="form-control" name="password" required>
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="name">name:</label>
     <input type="text" class="form-control" name="name" required>
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="email">email:</label>
     <input type="email" class="form-control" name="email" required>
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="bank_name">bank name:</label> 
     <input type="text" class="form-control" name="bank_name" required>
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="acc_name">acc name:</label>
     <input type="text" class="form-control" name="acc_name" required>
   </div>
-    <div class="form-group col-xs-4">
+    <div class="form-group col-lg-4">
     <label for="acc_no">acc no:</label>
     <input type="text" class="form-control" name="acc_no" required>
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="coin">coin:</label>
     <input type="text" class="form-control" name="coin" required>
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="ref_name">ref name:</label>
     <input type="text" class="form-control" name="ref_name" required>
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="status">status:</label>
     <input type="status" class="form-control" name="status" required>
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="amount">amount:</label>
     <input type="number" class="form-control" name="amount" required>
   </div>
-  <div class="form-group col-xs-4">
+  <div class="form-group col-lg-4">
     <label for="payout">payout:</label>
     <input type="number" class="form-control" name="payout" required>
   </div>
