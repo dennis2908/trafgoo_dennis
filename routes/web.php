@@ -175,4 +175,5 @@ Route::post('submit_customer_just_say','CustomerJustSayController@submit_custome
 Route::post('submit_customer_talk_project','CustomerTalkProjectController@submit_customer_talk_project')->name('submit_customer_talk_project');
 Route::get('get-user-data', 'HomeController@userData')->name('datatables.user');
 Route::get('getDataById', 'HomeController@getDataById')->name('datatables.getDataById');
+Route::get('deleteData', 'HomeController@deleteData')->name('datatables.deleteData');
 });

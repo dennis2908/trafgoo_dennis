@@ -35,4 +35,8 @@ class pengguna extends MyModel
 		return $this->DB::table($this->table)->insert($data);
 		//dd(DB::getQueryLog());
 	}
+	public function deleteData($post_data=array()){
+		return $this->DB::table($this->table)->delete($post_data->id);
+		//dd(DB::getQueryLog());
+	}
 }

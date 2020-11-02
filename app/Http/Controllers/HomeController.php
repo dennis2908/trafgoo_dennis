@@ -67,6 +67,11 @@ class HomeController extends Controller
 		return response()->json($result);
     }
 	
+	public function deleteData(Request $request)
+    {
+		return response()->json($this->user->deleteData($request));
+    }
+	
 	public function dologin(Request $request)
     {
 		

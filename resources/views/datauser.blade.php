@@ -187,6 +187,25 @@ function getData(id){
 			   }
 		});
 		
+}
+
+function deleteData(id){
+		
+		$.ajax({
+			   type: "GET",
+			   url: '{!! route('datatables.deleteData') !!}',
+			   async: false,
+			    data: {id:id}, // serializes the form's elements.
+			    beforeSend: function() {
+					$('body').css('background-image', 'url("{!! asset('gif/ajax_loader.gif') !!}")');
+				},
+			   success: function(result)
+			   {
+				   $('body').css('background-image', '');
+				   $('#user-table').DataTable().draw();
+			   }
+		});
+		
 	}
 </script>
 @endpush
