@@ -114,7 +114,7 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="{{asset('assets/images/trafagoo1.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <img src="{{asset('assets/images/trafagoo1.jpg')}}" class="img-responsive center-block" style="width:80%;">
         <div class="carousel-caption">
           <h3>Win And Invest</h3>
           <p>Trafgoo</p>
@@ -122,7 +122,7 @@
       </div>
 
       <div class="item">
-        <img src="{{asset('assets/images/payincrease.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <img src="{{asset('assets/images/payincrease.jpg')}}" class="img-responsive center-block" style="width:80%;">
         <div class="carousel-caption">
           <h3>Win And Invest</h3>
           <p>Trafgoo</p>
@@ -130,7 +130,7 @@
       </div>
     
       <div class="item">
-        <img src="{{asset('assets/images/webs1.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <img src="{{asset('assets/images/webs1.jpg')}}" class="img-responsive center-block" style="width:80%;">
         <div class="carousel-caption">
           <h3>Win And Invest</h3>
           <p>Trafgoo</p>
@@ -138,7 +138,7 @@
       </div>
 	  
 	  <div class="item">
-        <img src="{{asset('assets/images/WEBQ.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <img src="{{asset('assets/images/WEBQ.jpg')}}" class="img-responsive center-block" style="width:80%;">
         <div class="carousel-caption">
           <h3>Win And Invest</h3>
           <p>Trafgoo</p>
@@ -146,7 +146,7 @@
       </div>
 	  
 	  <div class="item">
-        <img src="{{asset('assets/images/WEBZAA.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <img src="{{asset('assets/images/WEBZAA.jpg')}}" class="img-responsive center-block" style="width:80%;">
         <div class="carousel-caption">
           <h3>Win And Invest</h3>
           <p>Trafgoo</p>
