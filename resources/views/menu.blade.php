@@ -99,75 +99,74 @@
 	        <!-- END SCOPE NAVBAR BOOTSTRAP -->
 
       <!-- START SCOPE CAROUSEL SLIDER -->
-      <div class="slider-apecsa">
-        <div class="tp-banner-container">
-          <div class="tp-banner">
-            <ul>
-              <!-- DATA TRANSITION OTHER
-              boxslide
-              boxfade
-              slotzoom-horizontal
-              slotslide-horizontal
-              slotfade-horizontal
-              slotzoom-vertical
-              slotslide-vertical
-              slotfade-vertical
-              curtain-1
-              curtain-2
-              curtain-3
-              slideleft
-              slideright
-              slideup
-              slidedown
-              fade -->
-              <li
-                data-transition="slotzoom-horizontal"
-                data-slotamount="3"
-                data-masterspeed="3000"
-                data-thumb="{{asset('assets/images/webs1.jpg')}}"
-                data-saveperformance="off"
-                data-title="@lang('sentences.contact_us')">
-                <img
-                  src="{{asset('assets/images/payincrease.jpg')}}"
-                  alt=""
-                  data-bgposition="center top"
-                  data-bgfit="cover"
-                  data-bgrepeat="no-repeat" style="size:30%">
-              </li>
+      <div class="container">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+	  <li data-target="#myCarousel" data-slide-to="3"></li>
+	  <li data-target="#myCarousel" data-slide-to="4"></li>
+    </ol>
 
-              <li
-                data-transition="curtain-3"
-                data-slotamount="3"
-                data-masterspeed="3000"
-                data-thumb="{{asset('assets/images/webs1.jpg')}}"
-                data-saveperformance="off"
-                data-title="@lang('sentences.with_awesome_service')">
-                <img
-                  src="{{asset('assets/images/payincrease.jpg')}}"
-                  alt=""
-                  data-bgposition="center top"
-                  data-bgfit="cover"
-                  data-bgrepeat="no-repeat" style="size:30%">
-              </li>
-              <li style="width:30px"
-                data-transition="slideright"
-                data-slotamount="3"
-                data-masterspeed="3000"
-                data-thumb="{{asset('assets/images/trafagoo.jpg')}}"
-                data-saveperformance="off"
-                data-title="@lang('sentences.we_are_awesome')">
-                <img
-                  src="{{asset('assets/images/trafagoo.jpg')}}" style=" height:50%;
-  width:50%;
-  position:absolute;
-  left:0;
-  top:0;" />
-              </li>
-            </ul>
-            <div class="tp-bannertimer"></div>
-          </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+        <img src="{{asset('assets/images/trafagoo1.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <div class="carousel-caption">
+          <h3>Win And Invest</h3>
+          <p>Trafgoo</p>
         </div>
-      </div> 
+      </div>
+
+      <div class="item">
+        <img src="{{asset('assets/images/payincrease.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <div class="carousel-caption">
+          <h3>Win And Invest</h3>
+          <p>Trafgoo</p>
+        </div>
+      </div>
+    
+      <div class="item">
+        <img src="{{asset('assets/images/webs1.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <div class="carousel-caption">
+          <h3>Win And Invest</h3>
+          <p>Trafgoo</p>
+        </div>
+      </div>
+	  
+	  <div class="item">
+        <img src="{{asset('assets/images/WEBQ.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <div class="carousel-caption">
+          <h3>Win And Invest</h3>
+          <p>Trafgoo</p>
+        </div>
+      </div>
+	  
+	  <div class="item">
+        <img src="{{asset('assets/images/WEBZAA.jpg')}}" class="img-responsive center-block" style="width:50%;">
+        <div class="carousel-caption">
+          <h3>Win And Invest</h3>
+          <p>Trafgoo</p>
+        </div>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
   <script src="{{asset('assets/js/bootstrap.js')}}"></script>
   <script src="{{asset('assets/js/jquery.scrolltofixed.js')}}"></script>
   <script src="{{asset('assets/js/revolution.min.js')}}"></script>
