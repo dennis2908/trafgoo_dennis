@@ -1,223 +1,337 @@
-<!DOCTYPE html>
-  @include('head')
-  <body>
-    <div class="apecsaos-wrapper">
-      <!-- START SCOPE HEADER -->
-      <!-- <header class="header-wrapper">
-        <div class="container">
-          <div class="box-header">
-            <div class="introduce">
-              <span>
-                Selamat datang di PT. Apecsa Optima Solusi
-              </span>
-            </div>
-            <div class="content">
-              <ul>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-envelope"></i>
-                  </div>
-                  <span>admin@apecsa-indonesia.com</span>
-                </li>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-phone"></i>
-                  </div>
-                  <span>(021) 234 454</span>
-                </li>
-                <li>
-                  <div class="icon">
-                    <i class="fa fa-map-marker"></i>
-                  </div>
-                  <span>Cilandak, Jakarta Selatan</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </header> -->
-      <!-- END SCOPE HEADER -->
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>T-Contact</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
 
-      <!-- START SCOPE NAVBAR BOOTSTRAP -->
-      @include('menu')
-      <div class="adresses">
-        <div class="list-data">
-          <ul>
-            <li>
-              <div class="icon">
-                <i class="fa fa-map-marker"></i>
-              </div>
-              <div class="info">
-                @lang('sentences.company_address')
-              </div>
-            </li>
-            <li>
-              <div class="icon">
-                <i class="fa fa-phone"></i>
-              </div>
-              <div class="info">
-			     @lang('sentences.ph_numb') +6288809615182 <br/>
-				 Whatsapp +6281286949932
-              </div>
-            </li>
-            <li>
-              <div class="icon">
-                <i class="fa fa-envelope"></i>
-              </div>
-              <div class="info">
-                manullang_d@yahoo.com
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <!-- END SCOPE INFORMATION ADDRESS -->
-      
-      <!-- START SCOPE FORM CONTACT US -->
-      <section class="bg-white">
-	    @if(session()->has('message'))
-			<div class="alert alert-success text-center">
-				<h2>{{ session()->get('message') }}</h2>
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Magnific Popup -->
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<!-- Owl Carousel  -->
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+
+	<!-- Pricing -->
+	<link rel="stylesheet" href="css/pricing.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">
+	<nav class="fh5co-nav" role="navigation">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-right">
+						<p class="site">www.trafgoo.com</p>
+						<p class="num">Call: +234 708 140 5096</p>
+						<ul class="fh5co-social">
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+							<li><a href="#"><i class="icon-github"></i></a></li>
+							<li><a href="#"><i class="icon-whatsapp"></i></a></li>
+						</ul>
+					</div>
+				</div>
 			</div>
-		@endif
-        <div class="container">
-          <div class="col-md-12">
-            <div class="box-title-desc">
-              <div class="title color-black bdr-btm-gray">
-                <span class="bg-white">@lang('sentences.contact_us')</span>
-              </div>
-             </div>
-          </div>
-          <div class="col-md-8 col-md-offset-2">
-            <div class="tab-form-contact">
-              <ul class="nav nav-tabs" role="tablist">
-                <li role="presentation" class="active">
-                  <a href="#contact-project" aria-controls="contact-project" role="tab" data-toggle="tab">
-                    <i class="fa fa-check-circle"></i>
-                    @lang('sentences.i_wanna_talk')
-                  </a>
-                </li>
-                <li role="presentation">
-                  <a href="#contact-say" aria-controls="contact-say" role="tab" data-toggle="tab">
-                    <i class="fa fa-check-circle"></i>
-                    @lang('sentences.i_just_wanna_say')
-                  </a>
-                </li>
-              </ul>
-              <div class="tab-content">
-                <div role="tabpanel" class="tab-pane active" id="contact-project">
-                  <form action="{{route('submit_customer_talk_project')}}" method="post">
-				  {{ csrf_field() }} 
-                    <div class="col-md-6">
-                      <label for="full_name">* @lang('sentences.full_name')</label>
-                      <input type="text" name="full_name" class="form-control" placeholder="John Doe" required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="email">* Email</label>
-                      <input type="email" name="email" class="form-control" placeholder="E.x: yourname@email.com" required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="phone">* @lang('sentences.phone')</label>
-                      <input type="text" name="phone" class="form-control" placeholder="E.x: 0857 xxx xxx xxx">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="company_name">@lang('sentences.your_company')</label>
-                      <input type="text" name="company_name" class="form-control" placeholder="Your company name">
-                    </div>
-                    <div class="col-md-6">
-                      <label for="where_find_us">@lang('sentences.where_did_find_us')</label>
-                      <select name="where_find_us" class="form-control">
-                        <option value="google">Google Search</option>
-                        <option value="friend">@lang('sentences.friend')</option>
-                        <option value="forum">forum</option>
-                        <option value="others">@lang('sentences.other')</option>
-                      </select>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="budget">@lang('sentences.your_budget')</label>
-                      <select name="budget" class="form-control" required>
-                        <option value="20000000-50000000">IDR. 20.000.000 - IDR.50.000.000</option>
-                        <option value="50000000-100000000">IDR. 50.000.000 - IDR.100.000.000</option>
-                        <option value="100000000-250000000">IDR. 100.000.000 - IDR.250.000.000</option>
-                        <option value="250000000-500000000">IDR. 250.000.000 - IDR.500.000.000</option>
-                        <option value="500000000-1000000000">IDR. 500.000.000 - IDR.1000.000.000</option>
-                        <option value="1000000000-1500000000">IDR. 1.000.000.000 - IDR.1.500.000.000</option>
-                        <option value="1500000000-2000000000">IDR. 1.500.000.000 - IDR.2.000.000.000</option>
-						<option value="200000000-4000000000">IDR. 2.000.000.000 - IDR.4.000.000.000</option>
-						<option value="400000000-8000000000">IDR. 4.000.000.000 - IDR.8.000.000.000</option>
-						<option value="800000000-12000000000">IDR. 8.000.000.000 - IDR.12.000.000.000</option>
-						<option value="1200000000-20000000000">IDR. 12.000.000.000 - IDR.20.000.000.000</option>
-                      </select>
-                    </div>
-                    <div class="col-md-12">
-                      <label for="website_url">@lang('sentences.url')</label>
-                      <input type="url" name="website_url" class="form-control" placeholder="E.x: http://yoururldomain.com/">
-                    </div>
-                    <div class="col-md-12">
-                      <label for="message">@lang('sentences.tell_us_a_bit_about')</label>
-                      <textarea class="form-control" cols="10" rows="10" placeholder="your message" name="message" required></textarea>
-                    </div>
-                    <div class="col-md-12">
-                      <label for="file">@lang('sentences.doc')</label>
-                      <input type="file" name="file">
-                    </div>
-                    <div class="col-md-12">
-                      <br>
-                      <button type="submit" class="btn btn-lg btn-apecsa-red">
-                        <i class="fa fa-send"></i>
-                        @lang('sentences.submit')
-                      </button>
-                    </div>
-                  </form>
-                </div>
-                <div role="tabpanel" class="tab-pane" id="contact-say">
-                  <form action="{{route('submit_customer_just_say')}}" method="post">
-				    {{ csrf_field() }} 
-                    <div class="col-md-6">
-                      <label for="full_name">* @lang('sentences.full_name')</label>
-                      <input type="text" class="form-control" name="full_name" placeholder="John Doe" required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="email">* Email</label>
-                      <input type="email" class="form-control" name="email" placeholder="E.x: yourname@email.com" required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="phone">* @lang('sentences.phone')</label>
-                      <input type="text" class="form-control" name="phone" placeholder="E.x: 0857 xxx xxx xxx" required>
-                    </div>
-                    <div class="col-md-6">
-                      <label for="company_name">@lang('sentences.your_company')</label>
-                      <input type="text" class="form-control" name="company_name" placeholder="Your company name">
-                    </div>
-                    <div class="col-md-12">
-                      <label for="message">@lang('sentences.message')</label>
-                      <textarea class="form-control" cols="10" name="message" rows="10" placeholder="message" required></textarea>
-                    </div>
-                    <div class="col-md-12">
-                      <br>
-                      <button type="submit" class="btn btn-lg btn-apecsa-red">
-                        <i class="fa fa-send"></i>
-                        @lang('sentences.submit')
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- END SCOPE FORM CONTACT US -->
+		</div>
+		<div class="top-menu">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2">
+						<div id="fh5co-logo"><a href="index.html"><i class="icon-study"></i>Trafgoo<span></span></a></div>
+					</div>
+					<div class="col-xs-10 text-right menu-1">
+						<ul>
+							<li class="active"><a href="index.html">Home</a></li>
+							<li><a href="courses.html">Courses</a></li>
+							<li><a href="teacher.html">Teacher</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="ebook.html">eBook</a></li>
+							<li class="has-dropdown">
+								<a href="blog.html">Blog</a>
+								<ul class="dropdown">
+									<li><a href="blog.html">T-News</a></li>
+									<li><a href="blog.html">Scholarships</a></li>
+									<li><a href="blog.html">Job</a></li>
+									<li><a href="blog.html">Trafgoo Update</a></li>
+								</ul>
+							</li>
+							<li><a href="contact.html">Contact</a></li>
+							<li class="btn-cta"><a href="login.html"><span>Login</span></a></li>
+							<li class="btn-cta"><a href="register.html"><span>Register</span></a></li>
+						</ul>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</nav>
+	
+	<aside id="fh5co-hero">
+		<div class="flexslider">
+			<ul class="slides">
+		   	<li style="background-image: url(images/officskill.jpg);">
+		   		<div class="overlay-gradient"></div>
+		   		<div class="container">
+		   			<div class="row">
+			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
+			   				<div class="slider-text-inner">
+			   					<h1 class="heading-section">Contact us</h1>
+									<h2>Brought to you by <a href="#" target="_blank">Trafgoo.Edu</a></h2>
+			   				</div>
+			   			</div>
+			   		</div>
+		   		</div>
+		   	</li>
+		  	</ul>
+	  	</div>
+	</aside>
 
-      <!-- START SCOPE FOOTER -->
-      @include('footer')
-      <!-- END SCOPE FOOTER -->
-      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-  </body>
+	<div id="fh5co-contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 col-md-push-1 animate-box">
+					
+					<div class="fh5co-contact-info">
+						<h3>Contact Information</h3>
+						<ul>
+							<li class="address">18, Banjo Street, Ojuelegba  <br>Surulere, Lagos, Nigeria</li>
+							<li class="phone"><a href="tel://1234567920"> +234 708 140 5096</a></li>
+							<li class="email"><a href="mailto:info@yoursite.com">infotrafgoo@gmail.com</a></li>
+							<li class="url"><a href="http://freehtml5.co">Trafgoo.com</a></li>
+						</ul>
+					</div>
 
-  <!-- SCOPE JAVASCRIPT -->
-  @include('footer_assets')
+				</div>
+				<div class="col-md-6 animate-box">
+					<h3>Get In Touch</h3>
+					<form action="#">
+						<div class="row form-group">
+							<div class="col-md-6">
+								<!-- <label for="fname">First Name</label> -->
+								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+							</div>
+							<div class="col-md-6">
+								<!-- <label for="lname">Last Name</label> -->
+								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="email">Email</label> -->
+								<input type="text" id="email" class="form-control" placeholder="Your email address">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="subject">Subject</label> -->
+								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+							</div>
+						</div>
+
+						<div class="row form-group">
+							<div class="col-md-12">
+								<!-- <label for="message">Message</label> -->
+								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="submit" value="Send Message" class="btn btn-primary">
+						</div>
+
+					</form>		
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	<div id="map" class="fh5co-map"></div>
+
+	<div id="fh5co-register" style="background-image: url(images/img_bg_2.jpg);">
+		<div class="overlay"></div>
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2 animate-box">
+				<div class="date-counter text-center">
+					<h2>Get 400 of Online Courses for Free</h2>
+					<h3>By Thomas Chris</h3>
+					<div class="simply-countdown simply-countdown-one"></div>
+					<p><strong>Learn & Earn</strong></p>
+					<p><a href="register.html" class="btn btn-primary btn-lg btn-reg">Click Here TO Register!</a></p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer id="fh5co-footer" role="contentinfo" style="background-image: url(images/img_bg_4.jpg);">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row row-pb-md">
+				<div class="col-md-3 fh5co-widget">
+					<h3>About Education</h3>
+					<p>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values,beliefs and habits. Educational methods includes teaching, training, storytelling, discussion and directed research.</p>
+				</div>
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+					<h3>Learning</h3>
+					<ul class="fh5co-footer-links">
+						<li><a href="#">Course</a></li>
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">Meetups</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+					<h3>Learn &amp; Grow</h3>
+					<ul class="fh5co-footer-links">
+						<li><a href="#">Blog</a></li>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Testimonials</a></li>
+						<li><a href="#">Handbook</a></li>
+						<li><a href="#">Held Desk</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+					<h3>Engage us</h3>
+					<ul class="fh5co-footer-links">
+						<li><a href="#">Marketing</a></li>
+						<li><a href="#">Visual Assistant</a></li>
+						<li><a href="#">System Analysis</a></li>
+						<li><a href="#">Advertise</a></li>
+					</ul>
+				</div>
+
+				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
+					<h3>Legal</h3>
+					<ul class="fh5co-footer-links">
+						<li><a href="#">Find Designers</a></li>
+						<li><a href="#">Find Developers</a></li>
+						<li><a href="#">Teams</a></li>
+						<li><a href="#">Advertise</a></li>
+						<li><a href="#">API</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2020 Trafgoo.Edu. All Rights Reserved.</small> 
+						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">Dennis Manullang</a> +628809615182 <a href="#" target="_blank">Learn </a> &amp; <a href="#" target="_blank"> Earn</a></small>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Carousel -->
+	<script src="js/owl.carousel.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+	<!-- countTo -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/magnific-popup-options.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	<!-- Count Down -->
+	<script src="js/simplyCountdown.js"></script>
+	<!-- Main -->
+	<script src="js/main.js"></script>
+	<script>
+    var d = new Date(new Date().getTime() + 1000 * 120 * 120 * 2000);
+
+    // default example
+    simplyCountdown('.simply-countdown-one', {
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate()
+    });
+
+    //jQuery example
+    $('#simply-countdown-losange').simplyCountdown({
+        year: d.getFullYear(),
+        month: d.getMonth() + 1,
+        day: d.getDate(),
+        enableUtc: false
+    });
+	</script>
+	</body>
 </html>
