@@ -112,8 +112,8 @@
 									<li><a href="blog.html">Trafgoo Update</a></li>
 								</ul>
 							</li>
-							<li><a href="contact.html">Contact</a></li>
-							<li class="btn-cta"><a href="login.html"><span>Login</span></a></li>
+							<li><a href="{{route('contactus')}}">Contact</a></li>
+							<li class="btn-cta"><a href="{{route('login')}}"><span>Login</span></a></li>
 							<li class="btn-cta"><a href="register.html"><span>Register</span></a></li>
 						</ul>
 					</div>
