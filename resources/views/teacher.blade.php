@@ -114,7 +114,7 @@
 								</ul>
 							</li>
 							<li><a href="{{route('goToPage')}}?page=contact">Contact</a></li>
-							<li class="btn-cta"><a href="{{route('goToPage')}}?page=main.php"><span>Login</span></a></li>
+							<li class="btn-cta"><a href="{{route('goToPage')}}?page=login"><span>Login</span></a></li>
 							<li class="btn-cta"><a href="{{route('goToPage')}}?page=register"><span>Register</span></a></li>
 						</ul>
 					</div>
