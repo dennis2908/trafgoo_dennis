@@ -61,7 +61,7 @@
                       Keep me signed in
                     </label>
                   </div>
-                  <a href="{{route('goToPage')}}?page=#" class="auth-link text-black">Forgot password?</a>
+                  <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" class="auth-link text-black">Forgot password?</a>
                 </div>
                 <div class="my-3">
                   <a class="btn btn-block btn-info btn-lg font-weight-medium auth-form-btn" href="../../index">LOGIN</a>
@@ -77,7 +77,7 @@
                   </button>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
-                  Don't have an account? <a href="{{route('goToPage')}}?page=register-2" class="text-primary">Create</a>
+                  Don't have an account? <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=register-2" class="text-primary">Create</a>
                 </div>
               </form>
             </div>

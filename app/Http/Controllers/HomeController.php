@@ -18,7 +18,7 @@ class HomeController extends Controller
 	
     public function index(Request $request)
     {
-        return view('index');
+        return view('index2');
     } 
 	
 	public function aboutus(Request $request)
@@ -65,7 +65,7 @@ class HomeController extends Controller
 			
 		}
 		else
-			return redirect()->route('index');
+			return redirect()->route('index2');
     }
 	
 	public function ebook(Request $request)

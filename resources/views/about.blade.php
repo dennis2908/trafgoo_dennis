@@ -81,11 +81,11 @@
 						<p class="site">www.trafgoo.com</p>
 						<p class="num">Call: +234 708 140 5096</p>
 						<ul class="fh5co-social">
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-dribbble2"></i></a></li>
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-github"></i></a></li>
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-whatsapp"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-dribbble2"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-github"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-whatsapp"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -95,31 +95,31 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="{{route('goToPage')}}?page=index"><i class="icon-study"></i>Trafgoo<span></span></a></div>
+						<div id="fh5co-logo"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=index"><i class="icon-study"></i>Trafgoo<span></span></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="{{route('goToPage')}}?page=index">Home</a></li>
-							<li><a href="{{route('goToPage')}}?page=courses">Courses</a></li>
-							<li><a href="{{route('goToPage')}}?page=teacher">Teacher</a></li>
-							<li><a href="{{route('goToPage')}}?page=about">About</a></li>
-							<li><a href="{{route('goToPage')}}?page=ebook">eBook</a></li>
+							<li class="active"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=index">Home</a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Courses</a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=teacher">Teacher</a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=about">About</a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=ebook">eBook</a></li>
 							<li class="has-dropdown">
-								<a href="{{route('goToPage')}}?page=blog">Blog</a>
+								<a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Blog</a>
 								<ul class="dropdown">
-									<li><a href="{{route('goToPage')}}?page=blog">T-News</a></li>
-									<li><a href="{{route('goToPage')}}?page=blog">Scholarships</a></li>
-									<li><a href="{{route('goToPage')}}?page=blog">Job</a></li>
-									<li><a href="{{route('goToPage')}}?page=blog">Trafgoo Update</a></li>
+									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">T-News</a></li>
+									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Scholarships</a></li>
+									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Job</a></li>
+									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Trafgoo Update</a></li>
 								</ul>
 							</li>
-							<li><a href="{{route('goToPage')}}?page=contact">Contact</a></li>
-							@if(!session()->has('user'))
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=contact">Contact</a></li>
+							@if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn"><span>Sign In</span></a></li> @endif
 							<li class="btn-cta"><a href="{{route('goToPage')}}?page=login"><span>Login</span></a></li>
 							@else
 							<li class="btn-cta"><a href="{{route('logout')}}"><span>Logout</span></a></li>	
 						    @endif
-							@if(!session()->has('user'))
+							@if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn"><span>Sign In</span></a></li> @endif
 								<li class="btn-cta"><a href="{{route('goToPage')}}?page=register"><span>Register</span></a></li>
 							@endif
 						</ul>
@@ -140,7 +140,7 @@
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
 			   					<h1 class="heading-section">About Us</h1>
-									<h2>Brought to you by <a href="{{route('goToPage')}}?page=#" target="_blank">Trafgoo.Edu</a></h2>
+									<h2>Brought to you by <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" target="_blank">Trafgoo.Edu</a></h2>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -212,7 +212,7 @@
 							<i class="icon-shop"></i>
 						</span>
 						<div class="desc">
-							<h3><a href="{{route('goToPage')}}?page=courses">Business</a></h3>
+							<h3><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Business</a></h3>
 							<p>Want to excel in your business? Our online business  courses can help you further your career and improve  communication, management, and leadership skill.</p>
 						</div>
 					</div>
@@ -223,7 +223,7 @@
 							<i class="icon-heart4"></i>
 						</span>
 						<div class="desc">
-							<h3><a href="{{route('goToPage')}}?page=courses">Health &amp; Psychology</a></h3>
+							<h3><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Health &amp; Psychology</a></h3>
 							<p>Explore the realities of living with health problems, improve your own wellbeing or discover psychology with our online course</p>
 						</div>
 					</div>
@@ -234,7 +234,7 @@
 							<i class="icon-banknote"></i>
 						</span>
 						<div class="desc">
-							<h3><a href="{{route('goToPage')}}?page=courses">Accounting</a></h3>
+							<h3><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Accounting</a></h3>
 							<p>Explore our Audit, Accounting & Financee training courses delivered by industry experts. Learn financial accounting, managerial accounting and more with our online courses.</p>
 						</div>
 					</div>
@@ -245,7 +245,7 @@
 							<i class="icon-lab2"></i>
 						</span>
 						<div class="desc">
-							<h3><a href="{{route('goToPage')}}?page=courses">Science &amp; Technology</a></h3>
+							<h3><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Science &amp; Technology</a></h3>
 							<p>The course encourage students to re-define science and technology in the context of world's changing confucian education system, booming market economy...</p>
 						</div>
 					</div>
@@ -256,7 +256,7 @@
 							<i class="icon-photo"></i>
 						</span>
 						<div class="desc">
-							<h3><a href="{{route('goToPage')}}?page=courses">Art &amp; Media</a></h3>
+							<h3><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Art &amp; Media</a></h3>
 							<p>Join online Media and Art courses from leading Edu-Site and cultural institutions. Explore creative industries like film, music, journalism and theatre.</p>
 						</div>
 					</div>
@@ -269,7 +269,7 @@
 							<i class="icon-home-outline"></i>
 						</span>
 						<div class="desc">
-							<h3><a href="{{route('goToPage')}}?page=courses">Real Estate</a></h3>
+							<h3><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Real Estate</a></h3>
 							<p>What is a course in real estate? Such courses instruct students on the basics of the operations and structure of the property sector</p>
 						</div>
 					</div>
@@ -280,7 +280,7 @@
 							<i class="icon-bubble3"></i>
 						</span>
 						<div class="desc">
-							<h3><a href="{{route('goToPage')}}?page=courses">Language</a></h3>
+							<h3><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Language</a></h3>
 							<p>These language courses, created by Trafgoo, will help you develop your skills in different domain area. Specific methodology per course.</p>
 						</div>
 					</div>
@@ -291,7 +291,7 @@
 							<i class="icon-world"></i>
 						</span>
 						<div class="desc">
-							<h3><a href="{{route('goToPage')}}?page=courses">Web &amp; Programming</a></h3>
+							<h3><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Web &amp; Programming</a></h3>
 							<p>These online web development courses will teach you the programming knowledge required to build responsive, performant web pages and applications.</p>
 						</div>
 					</div>
@@ -309,7 +309,7 @@
 					<h3>By Thomas Chris</h3>
 					<div class="simply-countdown simply-countdown-one"></div>
 					<p><strong>Learn & Earn</strong></p>
-					<p><a href="{{route('goToPage')}}?page=register" class="btn btn-primary btn-lg btn-reg">Click Here To Register!</a></p>
+					<p><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=register" class="btn btn-primary btn-lg btn-reg">Click Here To Register!</a></p>
 				</div>
 			</div>
 		</div>
@@ -321,16 +321,16 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3 col-padded">
-				<a href="{{route('goToPage')}}?page=#" class="gallery" style="background-image: url(images/project-5.jpg);"></a>
+				<a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" class="gallery" style="background-image: url(images/project-5.jpg);"></a>
 			</div>
 			<div class="col-md-3 col-padded">
-				<a href="{{route('goToPage')}}?page=#" class="gallery" style="background-image: url(images/project-2.jpg);"></a>
+				<a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" class="gallery" style="background-image: url(images/project-2.jpg);"></a>
 			</div>
 			<div class="col-md-3 col-padded">
-				<a href="{{route('goToPage')}}?page=#" class="gallery" style="background-image: url(images/project-3.jpg);"></a>
+				<a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" class="gallery" style="background-image: url(images/project-3.jpg);"></a>
 			</div>
 			<div class="col-md-3 col-padded">
-				<a href="{{route('goToPage')}}?page=#" class="gallery" style="background-image: url(images/project-4.jpg);"></a>
+				<a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" class="gallery" style="background-image: url(images/project-4.jpg);"></a>
 			</div>
 		</div>
 	</div>
@@ -346,43 +346,43 @@
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Learning</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="{{route('goToPage')}}?page=#">Course</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Blog</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Contact</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Terms</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Meetups</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Course</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Blog</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Contact</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Terms</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Meetups</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Learn &amp; Grow</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="{{route('goToPage')}}?page=#">Blog</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Privacy</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Testimonials</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Handbook</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Held Desk</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Blog</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Privacy</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Testimonials</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Handbook</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Held Desk</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Engage us</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="{{route('goToPage')}}?page=#">Marketing</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Visual Assistant</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">System Analysis</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Advertise</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Marketing</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Visual Assistant</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">System Analysis</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Advertise</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Legal</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="{{route('goToPage')}}?page=#">Find Designers</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Find Developers</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Teams</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Advertise</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">API</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Find Designers</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Find Developers</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Teams</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Advertise</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">API</a></li>
 					</ul>
 				</div>
 			</div>
@@ -391,7 +391,7 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2020 Trafgoo.Edu. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="{{route('goToPage')}}?page=http://freehtml5.co/" target="_blank">Dennis Manullang</a> +628809615182 <a href="{{route('goToPage')}}?page=#" target="_blank">Learn </a> &amp; <a href="{{route('goToPage')}}?page=#" target="_blank"> Earn</a></small>
+						<small class="block">Designed by <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=http://freehtml5.co/" target="_blank">Dennis Manullang</a> +628809615182 <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" target="_blank">Learn </a> &amp; <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" target="_blank"> Earn</a></small>
 					</p>
 				</div>
 			</div>
@@ -401,7 +401,7 @@
 	</div>
 
 	<div class="gototop js-top">
-		<a href="{{route('goToPage')}}?page=#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+		<a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 	
 	<!-- jQuery -->

@@ -77,7 +77,7 @@
     </head>
     <body>
 	    <div class="sidenav">
-		  <a href="{{route('goToPage')}}?page={!! route('dmadmin') !!}">User</a>
+		  <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={!! route('dmadmin') !!}">User</a>
 		</div>
 
 		<div class="main">

@@ -6,7 +6,7 @@
               <div class="title color-white">
                 <span>@lang('sentences.contact_us')</span>
               </div>
-              <a href="{{route('goToPage')}}?page={{route('contactus')}}" class="btn btn-apecsa-red btn-lg">
+              <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('contactus')}}" class="btn btn-apecsa-red btn-lg">
                 <i class="fa fa-envelope"></i>
                 @lang('sentences.contact_us')
               </a>

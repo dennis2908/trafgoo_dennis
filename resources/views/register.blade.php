@@ -82,11 +82,11 @@
 						<p class="site">www.trafgoo.com</p>
 						<p class="num">Call: +234 708 140 5096</p>
 						<ul class="fh5co-social">
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-dribbble2"></i></a></li>
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-github"></i></a></li>
-							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-whatsapp"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-dribbble2"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-github"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#"><i class="icon-whatsapp"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -96,32 +96,32 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="{{route('goToPage')}}?page=index"><i class="icon-study"></i>Trafgoo<span></span></a></div>
+						<div id="fh5co-logo"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=index"><i class="icon-study"></i>Trafgoo<span></span></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="{{route('goToPage')}}?page=index">Home</a></li>
-							<li><a href="{{route('goToPage')}}?page=courses">Courses</a></li>
-							<li><a href="{{route('goToPage')}}?page=teacher">Teacher</a></li>
-							<li><a href="{{route('goToPage')}}?page=about">About</a></li>
-							<li><a href="{{route('goToPage')}}?page=ebook">eBook</a></li>
+							<li class="active"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=index">Home</a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Courses</a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=teacher">Teacher</a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=about">About</a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=ebook">eBook</a></li>
 							<li class="has-dropdown">
-								<a href="{{route('goToPage')}}?page=blog">Blog</a>
+								<a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Blog</a>
 								<ul class="dropdown">
-									<li><a href="{{route('goToPage')}}?page=blog">T-News</a></li>
-									<li><a href="{{route('goToPage')}}?page=blog">Scholarships</a></li>
-									<li><a href="{{route('goToPage')}}?page=blog">Job</a></li>
-									<li><a href="{{route('goToPage')}}?page=blog">Trafgoo Update</a></li>
+									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">T-News</a></li>
+									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Scholarships</a></li>
+									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Job</a></li>
+									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Trafgoo Update</a></li>
 								</ul>
 							</li>
-							<li><a href="{{route('goToPage')}}?page=contact">Contact</a></li>
-							@if(!session()->has('user'))
-							<li class="btn-cta"><a href="{{route('goToPage')}}?page=login"><span>Login</span></a></li>
+							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=contact">Contact</a></li>
+							@if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn"><span>Sign In</span></a></li> @endif
+							<li class="btn-cta"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=login"><span>Login</span></a></li>
 							@else
-							<li class="btn-cta"><a href="{{route('logout')}}"><span>Logout</span></a></li>	
+							<li class="btn-cta"><a href="{{route('goToPage')}}?page={{route('logout')}}"><span>Logout</span></a></li>	
 						    @endif
-							@if(!session()->has('user'))
-								<li class="btn-cta"><a href="{{route('goToPage')}}?page=register"><span>Register</span></a></li>
+							@if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn"><span>Sign In</span></a></li> @endif
+								<li class="btn-cta"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=register"><span>Register</span></a></li>
 							@endif
 						</ul>
 					</div>
@@ -150,9 +150,9 @@ Suite 315, Second Floor, Anbeez Plaza, Wuse Zone 5, Abuja<br><br><br>
 Or <br><br><br>
 
 
-<img src="pictures/whatsappme.png" width="30px" height="30px"><a href="{{route('goToPage')}}?page=https://wa.me/2347081405096"><button><h4 style="color: blue">Contact Our Agent for Registration (PIN)</h4></button></a><br><br>
+<img src="pictures/whatsappme.png" width="30px" height="30px"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=https://wa.me/2347081405096"><button><h4 style="color: blue">Contact Our Agent for Registration (PIN)</h4></button></a><br><br>
 
-<img src="pictures/whatsappme.png" width="30px" height="30px"><a href="{{route('goToPage')}}?page=https://chat.whatsapp.com/Jto9We7J5cJGkChsOQnvmV"><button><h4 style="color: blue">Join the whatsApp Group</h4></button></a>
+<img src="pictures/whatsappme.png" width="30px" height="30px"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=https://chat.whatsapp.com/Jto9We7J5cJGkChsOQnvmV"><button><h4 style="color: blue">Join the whatsApp Group</h4></button></a>
 </h4>
 
 
@@ -171,7 +171,7 @@ Or <br><br><br>
 					<h3>By Thomas Chris</h3>
 					<div class="simply-countdown simply-countdown-one"></div>
 					<p><strong>Learn & Earn</strong></p>
-					<p><a href="{{route('goToPage')}}?page=register" class="btn btn-primary btn-lg btn-reg">Click Here TO Register!</a></p>
+					<p><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=register" class="btn btn-primary btn-lg btn-reg">Click Here TO Register!</a></p>
 				</div>
 			</div>
 		</div>
@@ -188,43 +188,43 @@ Or <br><br><br>
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Learning</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="{{route('goToPage')}}?page=#">Course</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Blog</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Contact</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Terms</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Meetups</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Course</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Blog</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Contact</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Terms</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Meetups</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Learn &amp; Grow</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="{{route('goToPage')}}?page=#">Blog</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Privacy</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Testimonials</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Handbook</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Held Desk</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Blog</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Privacy</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Testimonials</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Handbook</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Held Desk</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Engage us</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="{{route('goToPage')}}?page=#">Marketing</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Visual Assistant</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">System Analysis</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Advertise</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Marketing</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Visual Assistant</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">System Analysis</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Advertise</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Legal</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="{{route('goToPage')}}?page=#">Find Designers</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Find Developers</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Teams</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">Advertise</a></li>
-						<li><a href="{{route('goToPage')}}?page=#">API</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Find Designers</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Find Developers</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Teams</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">Advertise</a></li>
+						<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#">API</a></li>
 					</ul>
 				</div>
 			</div>
@@ -233,7 +233,7 @@ Or <br><br><br>
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2020 Trafgoo.Edu. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="{{route('goToPage')}}?page=http://freehtml5.co/" target="_blank">Dennis Manullang</a> +628809615182 <a href="{{route('goToPage')}}?page=#" target="_blank">Learn </a> &amp; <a href="{{route('goToPage')}}?page=#" target="_blank"> Earn</a></small>
+						<small class="block">Designed by <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=http://freehtml5.co/" target="_blank">Dennis Manullang</a> +628809615182 <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" target="_blank">Learn </a> &amp; <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" target="_blank"> Earn</a></small>
 					</p>
 				</div>
 			</div>
@@ -243,7 +243,7 @@ Or <br><br><br>
 	</div>
 
 	<div class="gototop js-top">
-		<a href="{{route('goToPage')}}?page=#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+		<a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 	
 	<!-- jQuery -->

@@ -32,49 +32,49 @@
               </div>
               <div class="collapse navbar-collapse" id="navbar-apecsaos">
                 <ul class="nav navbar-nav navbar-right">
-                  <li class="active"><a href="{{route('goToPage')}}?page={{route('index')}}">Home</a></li>
-                  <li><a href="{{route('goToPage')}}?page={{route('aboutus')}}">About Us</a></li>
-                  <li><a href="{{route('goToPage')}}?page={{route('buypin')}}">Buy Pin</a></li>
-                  <li><a href="{{route('goToPage')}}?page={{route('tq')}}">T&Q's</a></li>
+                  <li class="active"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('index')}}">Home</a></li>
+                  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('aboutus')}}">About Us</a></li>
+                  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('buypin')}}">Buy Pin</a></li>
+                  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tq')}}">T&Q's</a></li>
 				  @if(session()->has('user'))
 				  <li class="dropdown-submenu">
                             <a class="submenu" data-toggle="dropdown" href="#">Tutorial<span class="caret"></span></a>
                             <ul class="dropdown-menu">
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=affiliate_marketing">Affiliate marketing Course (CERT)</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=amazon_kindle_publishings">Amazon Kindle publishing Course (CERT)</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=2d_adobe_animate">2D Adobe Aminate</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=3d_adobe_animate">3D Adobe Aminate</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=anti-aging_spa">Anti-aging Spa</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=autocad_full_course">Auto CAD Full Course</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=barbing_salon">Barbing Salon</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=computer_laptop_repair">Computer/Laptop Repair</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=custom_clothing">Custom Clothing</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=drop_shipping">Drop Shipping</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=fitness_instructor">Fitness instructor</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=forex">Forex</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=coreldraw">Coreldraw</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=interior_decor">Interior Decor</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=makeup_business">Makeup Business</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=make_money_on_youtube">Make money on youtube</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=niche_blogging">Niche Blogging</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=office_skill_full_course">Office Skill Full Course</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=production_and_saling_of_detergents">Production and saling of detergents/perfumes</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=professional_photographer">Professional Photographer</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=programming_html">Programming HTML</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=sale_and_installation_of_3d">Sale and installation of 3D Wallpaper/panel</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=shoe_manufacturing">Shoe Manufacturing</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=solar_energy_installation">Solar Energy installation</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=mathematics_101">Mathematics 101</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=mathematics_102">Mathematics 102</a></li>
-							  <li><a href="{{route('goToPage')}}?page={{route('tutorial')}}?page=mathematics_201">Mathematics 201</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=affiliate_marketing">Affiliate marketing Course (CERT)</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=amazon_kindle_publishings">Amazon Kindle publishing Course (CERT)</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=2d_adobe_animate">2D Adobe Aminate</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=3d_adobe_animate">3D Adobe Aminate</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=anti-aging_spa">Anti-aging Spa</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=autocad_full_course">Auto CAD Full Course</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=barbing_salon">Barbing Salon</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=computer_laptop_repair">Computer/Laptop Repair</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=custom_clothing">Custom Clothing</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=drop_shipping">Drop Shipping</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=fitness_instructor">Fitness instructor</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=forex">Forex</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=coreldraw">Coreldraw</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=interior_decor">Interior Decor</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=makeup_business">Makeup Business</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=make_money_on_youtube">Make money on youtube</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=niche_blogging">Niche Blogging</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=office_skill_full_course">Office Skill Full Course</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=production_and_saling_of_detergents">Production and saling of detergents/perfumes</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=professional_photographer">Professional Photographer</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=programming_html">Programming HTML</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=sale_and_installation_of_3d">Sale and installation of 3D Wallpaper/panel</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=shoe_manufacturing">Shoe Manufacturing</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=solar_energy_installation">Solar Energy installation</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=mathematics_101">Mathematics 101</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=mathematics_102">Mathematics 102</a></li>
+							  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('tutorial')}}?page=mathematics_201">Mathematics 201</a></li>
 					        </ul>
                   </li>
-				  <li><a href="{{route('goToPage')}}?page={{route('ebook')}}">Ebook</a></li>
-				  <li><a href="{{route('goToPage')}}?page={{route('logout')}}">Logout</a></li>
+				  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('ebook')}}">Ebook</a></li>
+				  <li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('logout')}}">Logout</a></li>
 				  @endif
 
 				  @if(!Session::has('user'))
-					<li><a href="{{route('goToPage')}}?page={{route('login')}}">Login</a></li>  
+					<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('login')}}">Login</a></li>  
 				  @endif
 			 
 				  

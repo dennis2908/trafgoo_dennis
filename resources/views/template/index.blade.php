@@ -36,7 +36,7 @@
         </button>
         <ul class="navbar-nav navbar-nav-right">
             <li class="nav-item dropdown d-lg-flex d-none">
-                <a href="{{route('goToPage')}}?page={{route('index')}}" class="btn btn-info font-weight-bold" style="color:white">PT. Baga Putra Mandiri</a>
+                <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={{route('index')}}" class="btn btn-info font-weight-bold" style="color:white">PT. Baga Putra Mandiri</a>
             </li>
           <li class="nav-item dropdown d-flex">
             <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
