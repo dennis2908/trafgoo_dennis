@@ -104,7 +104,7 @@ Offensive or rude language, as well as malicious or damaging comments, will not 
       <!-- START SCOPE FOOTER -->
       @include('footer')
       <!-- END SCOPE FOOTER -->
-      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
+      <a href="{{route('goToPage')}}?page=" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>

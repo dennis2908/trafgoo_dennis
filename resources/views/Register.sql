@@ -1,0 +1,2 @@
+INSERT INTO `member`(`mem_id`, `username`, `password`, `fname`, `lname`, `address`, `bname`, `acname`, `acnum`, `coin`, `refname`)
+ VALUES ([1],[Mikeih],[22533614],[Iheme],[Michael],[Chimike@gmail.com],[Fist Bank],[Iheme Michael],[3099821662],[A],[Godisgood])

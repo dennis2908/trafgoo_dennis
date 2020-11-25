@@ -166,6 +166,7 @@ Route::get('tq','HomeController@tq')->name('tq');
 Route::get('contactus','HomeController@contactus')->name('contactus');
 Route::get('ebook','HomeController@ebook')->name('ebook');
 Route::get('tutorial','HomeController@tutorial')->name('tutorial');
+Route::get('goToPage','HomeController@goToPage')->name('goToPage');
 Route::get('dennismanullangiscool','HomeController@adminsite')->name('adminsite');
 Route::get('login','HomeController@login')->name('login');
 Route::post('saveuser','HomeController@saveuser')->name('saveuser');

@@ -125,7 +125,7 @@ TRF's Certificate courses are a range of free online courses that are designed t
 Built for learners of any ability or knowledge level, each of these free online classes takes less than 3 hours to complete and provides training in a single topic in clear detail.<br>
 
 And with over 20 certificate courses available, whether you want to learn - for free - how to manage projects or take classes in a computer science related course, Trafgoo has the Certificate for you.<br><br>
-Click To Register <a href="paymentgate.html">(Conctact Our Agent For Your Registration Pin)</a> 
+Click To Register <a href="{{route('goToPage')}}?page=paymentgate">(Conctact Our Agent For Your Registration Pin)</a> 
 So, what will you learn today?
 
 
@@ -138,7 +138,7 @@ So, what will you learn today?
       <!-- START SCOPE FOOTER -->
       @include('footer')
       <!-- END SCOPE FOOTER -->
-      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
+      <a href="{{route('goToPage')}}?page=" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>

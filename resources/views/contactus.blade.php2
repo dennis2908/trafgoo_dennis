@@ -92,13 +92,13 @@
             <div class="tab-form-contact">
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation" class="active">
-                  <a href="#contact-project" aria-controls="contact-project" role="tab" data-toggle="tab">
+                  <a href="{{route('goToPage')}}?page=#contact-project" aria-controls="contact-project" role="tab" data-toggle="tab">
                     <i class="fa fa-check-circle"></i>
                     @lang('sentences.i_wanna_talk')
                   </a>
                 </li>
                 <li role="presentation">
-                  <a href="#contact-say" aria-controls="contact-say" role="tab" data-toggle="tab">
+                  <a href="{{route('goToPage')}}?page=#contact-say" aria-controls="contact-say" role="tab" data-toggle="tab">
                     <i class="fa fa-check-circle"></i>
                     @lang('sentences.i_just_wanna_say')
                   </a>
@@ -212,7 +212,7 @@
       <!-- START SCOPE FOOTER -->
       @include('footer')
       <!-- END SCOPE FOOTER -->
-      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
+      <a href="{{route('goToPage')}}?page=" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>

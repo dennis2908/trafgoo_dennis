@@ -62,9 +62,9 @@ Suite 315, Second Floor, Anbeez Plaza, Wuse Zone 5, Abuja<br><br><br>
 Or <br><br><br>
 
 
-<img src="{{asset('assets/images/whatsappme.png')}}" width="30px" height="30px"><a href="https://wa.me/2347081405096"><button><h4 style="color: blue">Contact Our Agent for Registration (PIN)</h4></button></a><br><br>
+<img src="{{asset('assets/images/whatsappme.png')}}" width="30px" height="30px"><a href="{{route('goToPage')}}?page=https://wa.me/2347081405096"><button><h4 style="color: blue">Contact Our Agent for Registration (PIN)</h4></button></a><br><br>
 
-<img src="{{asset('assets/images/whatsappme.png')}}" width="30px" height="30px"><a href="https://chat.whatsapp.com/Jto9We7J5cJGkChsOQnvmV"><button><h4 style="color: blue">Join the whatsApp Group</h4></button></a>
+<img src="{{asset('assets/images/whatsappme.png')}}" width="30px" height="30px"><a href="{{route('goToPage')}}?page=https://chat.whatsapp.com/Jto9We7J5cJGkChsOQnvmV"><button><h4 style="color: blue">Join the whatsApp Group</h4></button></a>
 
               </div>
             </div>
@@ -75,7 +75,7 @@ Or <br><br><br>
       <!-- START SCOPE FOOTER -->
       @include('footer')
       <!-- END SCOPE FOOTER -->
-      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
+      <a href="{{route('goToPage')}}?page=" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>

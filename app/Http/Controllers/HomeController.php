@@ -44,6 +44,14 @@ class HomeController extends Controller
         return view($request->post('page'));
     }
 	
+	public function goToPage(Request $request)
+    {
+		if($request->post('page'))
+			return view($request->post('page'));
+		else
+			return redirect()->route('index');
+    }
+	
 	public function ebook(Request $request)
     {
 		

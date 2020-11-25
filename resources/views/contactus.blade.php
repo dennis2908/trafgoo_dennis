@@ -81,11 +81,11 @@
 						<p class="site">www.trafgoo.com</p>
 						<p class="num">Call: +234 708 140 5096</p>
 						<ul class="fh5co-social">
-							<li><a href="#"><i class="icon-facebook2"></i></a></li>
-							<li><a href="#"><i class="icon-twitter2"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
-							<li><a href="#"><i class="icon-github"></i></a></li>
-							<li><a href="#"><i class="icon-whatsapp"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-dribbble2"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-github"></i></a></li>
+							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-whatsapp"></i></a></li>
 						</ul>
 					</div>
 				</div>
@@ -95,27 +95,27 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.html"><i class="icon-study"></i>Trafgoo<span></span></a></div>
+						<div id="fh5co-logo"><a href="{{route('goToPage')}}?page=index"><i class="icon-study"></i>Trafgoo<span></span></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="courses.html">Courses</a></li>
-							<li><a href="teacher.html">Teacher</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="ebook.html">eBook</a></li>
+							<li class="active"><a href="{{route('goToPage')}}?page=index">Home</a></li>
+							<li><a href="{{route('goToPage')}}?page=courses">Courses</a></li>
+							<li><a href="{{route('goToPage')}}?page=teacher">Teacher</a></li>
+							<li><a href="{{route('goToPage')}}?page=about">About</a></li>
+							<li><a href="{{route('goToPage')}}?page=ebook">eBook</a></li>
 							<li class="has-dropdown">
-								<a href="blog.html">Blog</a>
+								<a href="{{route('goToPage')}}?page=blog">Blog</a>
 								<ul class="dropdown">
-									<li><a href="blog.html">T-News</a></li>
-									<li><a href="blog.html">Scholarships</a></li>
-									<li><a href="blog.html">Job</a></li>
-									<li><a href="blog.html">Trafgoo Update</a></li>
+									<li><a href="{{route('goToPage')}}?page=blog">T-News</a></li>
+									<li><a href="{{route('goToPage')}}?page=blog">Scholarships</a></li>
+									<li><a href="{{route('goToPage')}}?page=blog">Job</a></li>
+									<li><a href="{{route('goToPage')}}?page=blog">Trafgoo Update</a></li>
 								</ul>
 							</li>
-							<li><a href="contact.html">Contact</a></li>
-							<li class="btn-cta"><a href="login.html"><span>Login</span></a></li>
-							<li class="btn-cta"><a href="register.html"><span>Register</span></a></li>
+							<li><a href="{{route('goToPage')}}?page=contact">Contact</a></li>
+							<li class="btn-cta"><a href="{{route('goToPage')}}?page=login"><span>Login</span></a></li>
+							<li class="btn-cta"><a href="{{route('goToPage')}}?page=register"><span>Register</span></a></li>
 						</ul>
 					</div>
 				</div>
@@ -134,7 +134,7 @@
 			   			<div class="col-md-8 col-md-offset-2 text-center slider-text">
 			   				<div class="slider-text-inner">
 			   					<h1 class="heading-section">Contact us</h1>
-									<h2>Brought to you by <a href="#" target="_blank">Trafgoo.Edu</a></h2>
+									<h2>Brought to you by <a href="{{route('goToPage')}}?page=#" target="_blank">Trafgoo.Edu</a></h2>
 			   				</div>
 			   			</div>
 			   		</div>
@@ -153,9 +153,9 @@
 						<h3>Contact Information</h3>
 						<ul>
 							<li class="address">18, Banjo Street, Ojuelegba  <br>Surulere, Lagos, Nigeria</li>
-							<li class="phone"><a href="tel://1234567920"> +234 708 140 5096</a></li>
-							<li class="email"><a href="mailto:info@yoursite.com">infotrafgoo@gmail.com</a></li>
-							<li class="url"><a href="http://freehtml5.co">Trafgoo.com</a></li>
+							<li class="phone"><a href="{{route('goToPage')}}?page=tel://1234567920"> +234 708 140 5096</a></li>
+							<li class="email"><a href="{{route('goToPage')}}?page=mailto:info@yoursite.com">infotrafgoo@gmail.com</a></li>
+							<li class="url"><a href="{{route('goToPage')}}?page=http://freehtml5.co">Trafgoo.com</a></li>
 						</ul>
 					</div>
 
@@ -215,7 +215,7 @@
 					<h3>By Thomas Chris</h3>
 					<div class="simply-countdown simply-countdown-one"></div>
 					<p><strong>Learn & Earn</strong></p>
-					<p><a href="register.html" class="btn btn-primary btn-lg btn-reg">Click Here TO Register!</a></p>
+					<p><a href="{{route('goToPage')}}?page=register" class="btn btn-primary btn-lg btn-reg">Click Here TO Register!</a></p>
 				</div>
 			</div>
 		</div>
@@ -232,43 +232,43 @@
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Learning</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Course</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Contact</a></li>
-						<li><a href="#">Terms</a></li>
-						<li><a href="#">Meetups</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Course</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Blog</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Contact</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Terms</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Meetups</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Learn &amp; Grow</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Privacy</a></li>
-						<li><a href="#">Testimonials</a></li>
-						<li><a href="#">Handbook</a></li>
-						<li><a href="#">Held Desk</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Blog</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Privacy</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Testimonials</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Handbook</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Held Desk</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Engage us</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Marketing</a></li>
-						<li><a href="#">Visual Assistant</a></li>
-						<li><a href="#">System Analysis</a></li>
-						<li><a href="#">Advertise</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Marketing</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Visual Assistant</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">System Analysis</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Advertise</a></li>
 					</ul>
 				</div>
 
 				<div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
 					<h3>Legal</h3>
 					<ul class="fh5co-footer-links">
-						<li><a href="#">Find Designers</a></li>
-						<li><a href="#">Find Developers</a></li>
-						<li><a href="#">Teams</a></li>
-						<li><a href="#">Advertise</a></li>
-						<li><a href="#">API</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Find Designers</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Find Developers</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Teams</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">Advertise</a></li>
+						<li><a href="{{route('goToPage')}}?page=#">API</a></li>
 					</ul>
 				</div>
 			</div>
@@ -277,7 +277,7 @@
 				<div class="col-md-12 text-center">
 					<p>
 						<small class="block">&copy; 2020 Trafgoo.Edu. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">Dennis Manullang</a> +628809615182 <a href="#" target="_blank">Learn </a> &amp; <a href="#" target="_blank"> Earn</a></small>
+						<small class="block">Designed by <a href="{{route('goToPage')}}?page=http://freehtml5.co/" target="_blank">Dennis Manullang</a> +628809615182 <a href="{{route('goToPage')}}?page=#" target="_blank">Learn </a> &amp; <a href="{{route('goToPage')}}?page=#" target="_blank"> Earn</a></small>
 				</div>
 			</div>
 
@@ -286,7 +286,7 @@
 	</div>
 
 	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
+		<a href="{{route('goToPage')}}?page=#" class="js-gotop"><i class="icon-arrow-up"></i></a>
 	</div>
 	
 	<!-- jQuery -->

@@ -24,7 +24,7 @@
 </head>
 <body>
   <div class="container-scroller">
-    <!-- partial:partials/_navbar.html -->
+    <!-- partial:partials/_navbar -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
         <a class="navbar-brand brand-logo" style="font-size:18px" href="{{route('adminsite')}}">PT. Baga Putra Mandiri</a>
@@ -36,7 +36,7 @@
         </button>
         <ul class="navbar-nav navbar-nav-right">
             <li class="nav-item dropdown d-lg-flex d-none">
-                <a href="{{route('index')}}" class="btn btn-info font-weight-bold" style="color:white">PT. Baga Putra Mandiri</a>
+                <a href="{{route('goToPage')}}?page={{route('index')}}" class="btn btn-info font-weight-bold" style="color:white">PT. Baga Putra Mandiri</a>
             </li>
           <li class="nav-item dropdown d-flex">
             <a class="nav-link count-indicator dropdown-toggle d-flex justify-content-center align-items-center" id="messageDropdown" href="#" data-toggle="dropdown">
@@ -109,7 +109,7 @@
     </nav>
     <!-- partial -->
     <div class="container-fluid page-body-wrapper">
-      <!-- partial:partials/_sidebar.html -->
+      <!-- partial:partials/_sidebar -->
       <nav class="sidebar sidebar-offcanvas" id="sidebar">
         <div class="user-profile">
           <div class="user-image">
@@ -137,31 +137,31 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons">Buttons</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography">Typography</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/forms/basic_elements.html">
+            <a class="nav-link" href="pages/forms/basic_elements">
               <i class="icon-file menu-icon"></i>
               <span class="menu-title">Form elements</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/charts/chartjs.html">
+            <a class="nav-link" href="pages/charts/chartjs">
               <i class="icon-pie-graph menu-icon"></i>
               <span class="menu-title">Charts</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
+            <a class="nav-link" href="pages/tables/basic-table">
               <i class="icon-command menu-icon"></i>
               <span class="menu-title">Tables</span>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="pages/icons/feather-icons.html">
+            <a class="nav-link" href="pages/icons/feather-icons">
               <i class="icon-help menu-icon"></i>
               <span class="menu-title">Icons</span>
             </a>
@@ -174,16 +174,16 @@
             </a>
             <div class="collapse" id="auth">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/login-2.html"> Login 2 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register.html"> Register </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/register-2.html"> Register 2 </a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/samples/lock-screen.html"> Lockscreen </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/login"> Login </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/login-2"> Login 2 </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/register"> Register </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/register-2"> Register 2 </a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/samples/lock-screen"> Lockscreen </a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="docs/documentation.html">
+            <a class="nav-link" href="docs/documentation">
               <i class="icon-book menu-icon"></i>
               <span class="menu-title">Documentation</span>
             </a>
@@ -697,7 +697,7 @@
           </div>
         </div>
         <!-- content-wrapper ends -->
-        <!-- partial:partials/_footer.html -->
+        <!-- partial:partials/_footer -->
         <footer class="footer">
           <div class="d-sm-flex justify-content-center justify-content-sm-between">
             <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2020 Michael Dennis. All rights reserved.</span>

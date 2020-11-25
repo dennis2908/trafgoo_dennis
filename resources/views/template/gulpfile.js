@@ -33,7 +33,7 @@ gulp.task('serve', gulp.series('sass', function() {
     });
 
     gulp.watch('scss/**/*.scss', gulp.series('sass'));
-    gulp.watch('**/*.html').on('change', browserSync.reload);
+    gulp.watch('**/*').on('change', browserSync.reload);
     gulp.watch('js/**/*.js').on('change', browserSync.reload);
 
 }));
@@ -50,7 +50,7 @@ gulp.task('serve:lite', function() {
     });
 
     gulp.watch('**/*.css').on('change', browserSync.reload);
-    gulp.watch('**/*.html').on('change', browserSync.reload);
+    gulp.watch('**/*').on('change', browserSync.reload);
     gulp.watch('js/**/*.js').on('change', browserSync.reload);
 
 });
@@ -58,7 +58,7 @@ gulp.task('serve:lite', function() {
 
 /* inject partials like sidebar and navbar */
 gulp.task('injectPartial', function () {
-    return gulp.src("./**/*.html", { base: "./" })
+    return gulp.src("./**/*", { base: "./" })
       .pipe(injectPartials())
       .pipe(gulp.dest("."));
   });
@@ -67,7 +67,7 @@ gulp.task('injectPartial', function () {
 
 /* inject Js and CCS assets into HTML */
 gulp.task('injectCommonAssets', function () {
-  return gulp.src('./**/*.html')
+  return gulp.src('./**/*')
     .pipe(inject(gulp.src([
         './vendors/mdi/css/materialdesignicons.min.css', 
         './vendors/feather/feather.css',
@@ -85,7 +85,7 @@ gulp.task('injectCommonAssets', function () {
 
 /* inject Js and CCS assets into HTML */
 gulp.task('injectLayoutStyles', function () {
-    return gulp.src('./**/*.html')
+    return gulp.src('./**/*')
         .pipe(inject(gulp.src([
             './css/style.css', 
         ], {read: false}), {relative: true}))
@@ -94,18 +94,18 @@ gulp.task('injectLayoutStyles', function () {
 
 /*replace image path and linking after injection*/
 gulp.task('replacePath', function(){
-    var replacePath1 = gulp.src(['./pages/*/*.html'], { base: "./" })
+    var replacePath1 = gulp.src(['./pages/*/*'], { base: "./" })
         .pipe(replace('="images/', '="../../images/'))
         .pipe(replace('href="pages/', 'href="../../pages/'))
         .pipe(replace('href="docs/', 'href="../../docs/'))
-        .pipe(replace('href="index.html"', 'href="../../index.html"'))
+        .pipe(replace('href="index"', 'href="../../index"'))
         .pipe(gulp.dest('.'));
-    var replacePath2 = gulp.src(['./pages/*.html'], { base: "./" })
+    var replacePath2 = gulp.src(['./pages/*'], { base: "./" })
         .pipe(replace('="images/', '="../images/'))
         .pipe(replace('"pages/', '"../pages/'))
-        .pipe(replace('href="index.html"', 'href="../index.html"'))
+        .pipe(replace('href="index"', 'href="../index"'))
         .pipe(gulp.dest('.'));
-    var replacePath3 = gulp.src(['./index.html'], { base: "./" })
+    var replacePath3 = gulp.src(['./index'], { base: "./" })
         .pipe(replace('="images/', '="images/'))
         .pipe(gulp.dest('.'));
     return merge(replacePath1, replacePath2, replacePath3);

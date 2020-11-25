@@ -138,7 +138,7 @@
                             </div>
                           </div>
                         </div>
-                        <a href="#" class="btn btn-lg btn-block btn-apecsa-red">
+                        <a href="{{route('goToPage')}}?page=#" class="btn btn-lg btn-block btn-apecsa-red">
                           <i class="fa fa-link"></i>
                           Link website
                         </a>
@@ -227,7 +227,7 @@
                             </div>
                           </div>
                         </div>
-                        <a href="#" class="btn btn-lg btn-block btn-apecsa-red">
+                        <a href="{{route('goToPage')}}?page=#" class="btn btn-lg btn-block btn-apecsa-red">
                           <i class="fa fa-link"></i>
                           Link website
                         </a>
@@ -316,7 +316,7 @@
                             </div>
                           </div>
                         </div>
-                        <a href="#" class="btn btn-lg btn-block btn-apecsa-red">
+                        <a href="{{route('goToPage')}}?page=#" class="btn btn-lg btn-block btn-apecsa-red">
                           <i class="fa fa-link"></i>
                           Link website
                         </a>
@@ -405,7 +405,7 @@
                             </div>
                           </div>
                         </div>
-                        <a href="#" class="btn btn-lg btn-block btn-apecsa-red">
+                        <a href="{{route('goToPage')}}?page=#" class="btn btn-lg btn-block btn-apecsa-red">
                           <i class="fa fa-link"></i>
                           Link website
                         </a>
@@ -494,7 +494,7 @@
                             </div>
                           </div>
                         </div>
-                        <a href="http://rkpd.tasikmalayakota.go.id/" target="_blank" class="btn btn-lg btn-block btn-apecsa-red">
+                        <a href="{{route('goToPage')}}?page=http://rkpd.tasikmalayakota.go.id/" target="_blank" class="btn btn-lg btn-block btn-apecsa-red">
                           <i class="fa fa-link"></i>
                           Link website
                         </a>
@@ -583,7 +583,7 @@
                             </div>
                           </div>
                         </div>
-                        <a href="http://plasadana.com/" target="_blank" class="btn btn-lg btn-block btn-apecsa-red">
+                        <a href="{{route('goToPage')}}?page=http://plasadana.com/" target="_blank" class="btn btn-lg btn-block btn-apecsa-red">
                           <i class="fa fa-link"></i>
                           Link website
                         </a>
@@ -599,17 +599,17 @@
               <nav aria-label="Page navigation">
                 <ul class="pagination">
                   <li>
-                    <a href="#" aria-label="Previous">
+                    <a href="{{route('goToPage')}}?page=#" aria-label="Previous">
                       <span aria-hidden="true">&laquo;</span>
                     </a>
                   </li>
-                  <li class="active"><a href="#">1</a></li>
-                  <li><a href="#">2</a></li>
-                  <li><a href="#">3</a></li>
-                  <li><a href="#">4</a></li>
-                  <li><a href="#">5</a></li>
+                  <li class="active"><a href="{{route('goToPage')}}?page=#">1</a></li>
+                  <li><a href="{{route('goToPage')}}?page=#">2</a></li>
+                  <li><a href="{{route('goToPage')}}?page=#">3</a></li>
+                  <li><a href="{{route('goToPage')}}?page=#">4</a></li>
+                  <li><a href="{{route('goToPage')}}?page=#">5</a></li>
                   <li>
-                    <a href="#" aria-label="Next">
+                    <a href="{{route('goToPage')}}?page=#" aria-label="Next">
                       <span aria-hidden="true">&raquo;</span>
                     </a>
                   </li>
@@ -627,7 +627,7 @@
       <!-- START SCOPE FOOTER -->
       @include('footer')
       <!-- END SCOPE FOOTER -->
-      <a href="" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
+      <a href="{{route('goToPage')}}?page=" id="back-to-top" data-toggle="tooltip" data-placement="top" title="Back to top">
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
