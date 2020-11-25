@@ -134,7 +134,7 @@
 			   				<div class="slider-text-inner">
 			   					<h1>The Roots of Education are Bitter, But the Fruit is Sweet</h1>
 									<h2>Brought to you by <a href="{{route('goToPage')}}?page=#" target="_blank">Trafgoo.Edu</a></h2>
-									<p><a class="btn btn-primary btn-lg" href="courses">Start Learning Now!</a></p>
+									<p><a class="btn btn-primary btn-lg" href="{{route('goToPage')}}?page=courses">Start Learning Now!</a></p>
 			   				</div>
 			   			</div>
 			   		</div>
