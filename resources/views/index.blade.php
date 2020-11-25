@@ -118,7 +118,9 @@
 							@else
 							<li class="btn-cta"><a href="{{route('logout')}}"><span>Logout</span></a></li>	
 						    @endif
-							<li class="btn-cta"><a href="{{route('goToPage')}}?page=register"><span>Register</span></a></li>
+							@if(!session()->has('user'))
+								<li class="btn-cta"><a href="{{route('goToPage')}}?page=register"><span>Register</span></a></li>
+							@endif
 						</ul>
 					</div>
 				</div>
