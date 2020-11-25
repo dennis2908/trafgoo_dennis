@@ -48,7 +48,7 @@ class HomeController extends Controller
     {
 		//dd($this->user->Session::has('user'));
 		$page = $request->post('page');
-		$arr = ['courses','teacher','ebook'];
+		$arr = ['courses','teacher','ebook','blog'];
 		if($page){
 			if (in_array($request->post('page'),$arr))
 			{
