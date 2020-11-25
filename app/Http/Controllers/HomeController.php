@@ -46,8 +46,24 @@ class HomeController extends Controller
 	
 	public function goToPage(Request $request)
     {
-		if($request->post('page'))
-			return view($request->post('page'));
+		//dd($this->user->Session::has('user'));
+		$page = $request->post('page');
+		$arr = ['courses','teacher','ebook'];
+		if($page){
+			if (in_array($request->post('page'),$arr))
+			{
+				if($this->user->Session::has('user')){
+				   return view($page);	
+				}else{
+				   return view('login');	
+				}
+				
+			}
+			else{
+			   return view($page);	
+			}
+			
+		}
 		else
 			return redirect()->route('index');
     }
