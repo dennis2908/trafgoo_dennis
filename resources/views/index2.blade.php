@@ -386,10 +386,10 @@
 				</div>
 				<div class="col-md-6 animate-box">
 					<div class="course">
-						<a href="{{route('goToPage')}}?page=anti-agindspa2" class="course-img" style="background-image: url(images/Skincare-small.png);">
+						<a href="{{route('goToPage')}}?page=anti-agingspa2" class="course-img" style="background-image: url(images/Skincare-small.png);">
 						</a>
 						<div class="desc">
-							<h3><a href="{{route('goToPage')}}?page=anti-agindspa2">Anti-aging Spa</a></h3>
+							<h3><a href="{{route('goToPage')}}?page=anti-agingspa2">Anti-aging Spa</a></h3>
 							<p>Learn how to protect your skill from UV rays and other environmental and metabolic oxidizing conditions to preserve a youthful appearance. NOTE: Personal use no certificate</p>
 							<span><a href="{{route('goToPage')}}?page=anti-agingspa2" class="btn btn-primary btn-sm btn-course">Take A Course</a></span>
 						</div>
