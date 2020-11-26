@@ -48,7 +48,12 @@ class HomeController extends Controller
     {
 		//dd($this->user->Session::has('user'));
 		$page = $request->post('page');
-		$arr = ['courses','teacher','ebook','blog'];
+		$arr = ['courses2','teacher2','ebook2','blog2','2Dadobeanimation2','3Dadobeanimation2','mathstut2','mathstut1','mathstut3'
+		,'about2','affiliatemarketing2','amazonkindle2','anti-agingspa2','autocad2','baking2','barbing2','mathstut12','mathstut22'
+		,'blogging2','chinese2','computerhardware2','coreldraw2','courses2','css2','customclothing2','mathematics_102'
+		,'dropshipping2','ebook2','fitnessinstructor2','fitnessinstructor2','html2','interiordecor2','makeup2','mathematics_201'
+		,'mathstut32','officemanagement2','photographer2','photoshop2','productionperfume2','professional_photographer','programming_html'
+		,'shoemanufacturing2','solarenergy2','teacher2','title','videoediting2','wallpaper2','youtuber2'];
 		if($page){
 			if (in_array($request->post('page'),$arr))
 			{
