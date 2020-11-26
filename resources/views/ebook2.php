@@ -95,7 +95,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="{{route('goToPage')}}?page=index2.html"><i class="icon-study"></i>Trafgoo<span></span></a></div>
+						<div id="fh5co-logo"><a href="{{route('goToPage')}}?page=index2"><i class="icon-study"></i>Trafgoo<span></span></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
@@ -113,7 +113,7 @@
                   <li><a href="{{route('goToPage')}}?page=blog2">Trafgoo Update</a></li>
                 </ul>
               </li>
-              <li><a href="{{route('goToPage')}}?page=contact2.html">Contact</a></li>
+              <li><a href="{{route('goToPage')}}?page=contact2">Contact</a></li>
               @if(session()->has('user'))<li class="btn-cta"><a href="{{route('goToPage')}}?page=welcome"><span>My Account</span></a></li>@endif
               @if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn"><span>Sign In</span></a></li> @endif
             
@@ -1285,7 +1285,7 @@ img{
           <h3>By Thomas Chris</h3>
           <div class="simply-countdown simply-countdown-one"></div>
           <p><strong>Learn & Earn</strong></p>
-          <p><a href="{{route('goToPage')}}?page=courses.html" class="btn btn-primary btn-lg btn-reg">Click Here TO Learn More!</a></p>
+          <p><a href="{{route('goToPage')}}?page=courses" class="btn btn-primary btn-lg btn-reg">Click Here TO Learn More!</a></p>
         </div>
       </div>
     </div>
@@ -1302,9 +1302,9 @@ img{
         <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
           <h3>Learning</h3>
           <ul class="fh5co-footer-links">
-            <li><a href="{{route('goToPage')}}?page=courses.html">Course</a></li>
-            <li><a href="{{route('goToPage')}}?page=blog.html">Blog</a></li>
-            <li><a href="{{route('goToPage')}}?page=contact.html">Contact</a></li>
+            <li><a href="{{route('goToPage')}}?page=courses">Course</a></li>
+            <li><a href="{{route('goToPage')}}?page=blog">Blog</a></li>
+            <li><a href="{{route('goToPage')}}?page=contact">Contact</a></li>
             <li><a href="{{route('goToPage')}}?page=#">Terms</a></li>
             <li><a href="{{route('goToPage')}}?page=#">Meetups</a></li>
           </ul>
@@ -1313,7 +1313,7 @@ img{
         <div class="col-md-2 col-sm-4 col-xs-6 col-md-push-1 fh5co-widget">
           <h3>Learn &amp; Grow</h3>
           <ul class="fh5co-footer-links">
-            <li><a href="{{route('goToPage')}}?page=blog.html">Blog</a></li>
+            <li><a href="{{route('goToPage')}}?page=blog">Blog</a></li>
             <li><a href="{{route('goToPage')}}?page=#">Privacy</a></li>
             <li><a href="{{route('goToPage')}}?page=#">Testimonials</a></li>
             <li><a href="{{route('goToPage')}}?page=#">Handbook</a></li>
