@@ -79,7 +79,7 @@
 				<div class="row">
 					<div class="col-xs-12 text-right">
 						<p class="site">www.trafgoo.com</p>
-						<p class="num">Call: +234 708 140 5096</p>
+						<p class="site col-xs-6 text-center">@if(session()->has('user')) Hi, {{session()->get('user')}} @endif</p><p class="num col-xs-2">Call: +234 708 140 5096</p>
 						<ul class="fh5co-social">
 							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-facebook2"></i></a></li>
 							<li><a href="{{route('goToPage')}}?page=#"><i class="icon-twitter2"></i></a></li>

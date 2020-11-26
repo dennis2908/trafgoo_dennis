@@ -104,8 +104,11 @@ class HomeController extends Controller
 	public function dologin(Request $request)
     {
 		
-		if($this->user->ceklogin($request))
+		if($this->user->ceklogin($request)){
 			$this->user->Session::put('user', $request->username);
+			$this->user->Session::put('password', $request->password);
+		}
+		
         return Redirect()->route('index');
     }
 	
