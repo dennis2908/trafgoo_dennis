@@ -70,7 +70,7 @@ class HomeController extends Controller
 			
 		}
 		else
-			return redirect()->route('index2');
+			return redirect()->route('index');
     }
 	
 	public function ebook(Request $request)
