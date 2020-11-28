@@ -60,7 +60,7 @@ class HomeController extends Controller
 				if($this->user->Session::has('user')){
 				   return view($page);	
 				}else{
-				   return view('login');	
+				   return redirect()->route('login');	
 				}
 				
 			}
