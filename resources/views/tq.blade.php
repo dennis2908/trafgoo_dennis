@@ -108,5 +108,5 @@ Offensive or rude language, as well as malicious or damaging comments, will not 
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
-  </body>
+  @include('modal') </body>
 </html>

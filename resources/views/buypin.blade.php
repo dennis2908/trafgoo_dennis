@@ -79,5 +79,5 @@ Or <br><br><br>
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
-  </body>
+  @include('modal') </body>
 </html>

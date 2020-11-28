@@ -287,5 +287,5 @@ Or <br><br><br>
         enableUtc: false
     });
 	</script>
-	</body>
+	@include('modal') </body>
 </html>

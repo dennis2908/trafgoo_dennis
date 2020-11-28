@@ -50,4 +50,4 @@ body {
             </div>
         </div>
     </div>
-</body>
+@include('modal') </body>

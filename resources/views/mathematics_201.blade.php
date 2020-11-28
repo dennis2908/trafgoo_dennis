@@ -139,5 +139,5 @@ So, what will you learn today?
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
-  </body>
+  @include('modal') </body>
 </html>

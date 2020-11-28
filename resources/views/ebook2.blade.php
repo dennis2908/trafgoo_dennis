@@ -114,7 +114,7 @@
                 </ul>
               </li>
               <li><a href="{{route('goToPage')}}?page=contact2">Contact</a></li>
-              @if(session()->has('user'))<li class="btn-cta"><a href="{{route('goToPage')}}?page=welcome"><span>My Account</span></a></li>@endif
+              @if(session()->has('user'))<li class="btn-cta"><a href="#" data-toggle="modal" data-target="#tesModal"><span>My Account</span></a></li>@endif
             
 						</ul>
 					</div>
@@ -1415,6 +1415,6 @@ img{
         enableUtc: false
     });
 	</script>
-	</body>
+	@include('modal') </body>
 </html>
 

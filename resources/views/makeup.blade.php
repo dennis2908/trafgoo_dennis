@@ -355,6 +355,6 @@
         enableUtc: false
     });
 	</script>
-	</body>
+	@include('modal') </body>
 </html>
 

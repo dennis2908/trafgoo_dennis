@@ -106,7 +106,7 @@ while($rows=mysqli_fetch_array($result)){
 </div>
 </br>
 <div id="footer"><p>2018-2020 Trafgoo.com|18+</p></div>
-</body>
+@include('modal') </body>
 </html>
 
 <?php

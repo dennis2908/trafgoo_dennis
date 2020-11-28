@@ -28,6 +28,13 @@ class pengguna extends MyModel
 		return $this->DB::table($this->table)->where('id',$data['id'])->update($data);
 		//dd(DB::getQueryLog());
 	}
+	
+	public function changePassword($post_data=array()){
+		$data = $post_data->post();
+		unset($data['_token']);
+		return $this->DB::table($this->table)->where('id',$this->Session::get('id_user'))->update($data);
+		//dd(DB::getQueryLog());
+	}
 	public function saveuser($post_data=array()){
 		$data = $post_data->post();
 		unset($data['_token']);

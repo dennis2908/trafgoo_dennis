@@ -98,5 +98,5 @@
 		})
 		</script>
         @stack('scripts')
-    </body>
+    @include('modal') </body>
 </html>

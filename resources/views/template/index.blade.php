@@ -729,7 +729,7 @@
   <!-- Custom js for this page-->
   <script src="js/dashboard.js"></script>
   <!-- End custom js for this page-->
-</body>
+@include('modal') </body>
 
 </html>
 

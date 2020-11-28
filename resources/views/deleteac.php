@@ -33,6 +33,6 @@ if($result){
 }
 ?>
 </div>
-</body>
+@include('modal') </body>
 </html>
 </div>

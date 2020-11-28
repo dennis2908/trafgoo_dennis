@@ -95,5 +95,5 @@
                 </div>
             </div>
         </div>
-    </body>
+    @include('modal') </body>
 </html>

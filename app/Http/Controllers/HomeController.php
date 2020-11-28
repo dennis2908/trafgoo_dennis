@@ -105,12 +105,18 @@ class HomeController extends Controller
 		return response()->json($this->user->deleteData($request));
     }
 	
+	public function changePassword(Request $request)
+    {
+		return response()->json($this->user->changePassword($request));
+    }
+	
 	public function dologin(Request $request)
     {
 		
-		if($this->user->ceklogin($request)){
+		if($data = $this->user->ceklogin($request)){
 			$this->user->Session::put('user', $request->username);
 			$this->user->Session::put('password', $request->password);
+			$this->user->Session::put('id_user', $data->id);
 		}
 		
         return Redirect()->route('index');

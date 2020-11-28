@@ -1015,6 +1015,6 @@ Deadline: January 29, 2021<br></p>
         enableUtc: false
     });
 	</script>
-	</body>
+	@include('modal') </body>
 </html>
 

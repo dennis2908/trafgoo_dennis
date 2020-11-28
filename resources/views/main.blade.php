@@ -86,5 +86,5 @@ echo ' <div id="reg-head-fail" class="headrg">Login Failed!, Invalid Credentials
 </div>
 </div>
 <div id="footer"><p>&copy; 2020 Trafgoo.Edu. All Rights Reserved.</p></div>
-</body>
+@include('modal') </body>
 </html>

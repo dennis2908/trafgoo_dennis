@@ -631,7 +631,7 @@
         <i class="fa fa-chevron-up"></i>
       </a>
     </div>
-  </body>
+  @include('modal') </body>
 
   <!-- SCOPE JAVASCRIPT -->
   <script src="assets/js/bootstrap.js"></script>

@@ -170,6 +170,7 @@ Route::get('goToPage','HomeController@goToPage')->name('goToPage');
 Route::get('dennismanullangiscool','HomeController@adminsite')->name('adminsite');
 Route::get('login','HomeController@login')->name('login');
 Route::post('saveuser','HomeController@saveuser')->name('saveuser');
+Route::post('changePassword','HomeController@changePassword')->name('changePassword');
 Route::get('logout','HomeController@logout')->name('logout');
 Route::post('dologin','HomeController@dologin')->name('dologin');
 Route::post('submit_customer_just_say','CustomerJustSayController@submit_customer_just_say')->name('submit_customer_just_say');
