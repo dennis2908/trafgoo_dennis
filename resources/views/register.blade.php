@@ -144,9 +144,9 @@ Suite 315, Second Floor, Anbeez Plaza, Wuse Zone 5, Abuja<br><br><br>
 Or <br><br><br>
 
 
-<img src="pictures/whatsappme.png" width="30px" height="30px"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=https://wa.me/2347081405096"><button><h4 style="color: blue">Contact Our Agent for Registration (PIN)</h4></button></a><br><br>
+<img src="pictures/whatsappme.png" width="30px" height="30px"><a href="https://wa.me/2347081405096"><button><h4 style="color: blue">Contact Our Agent for Registration (PIN)</h4></button></a><br><br>
 
-<img src="pictures/whatsappme.png" width="30px" height="30px"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=https://chat.whatsapp.com/Jto9We7J5cJGkChsOQnvmV"><button><h4 style="color: blue">Join the whatsApp Group</h4></button></a>
+<img src="pictures/whatsappme.png" width="30px" height="30px"><a href="https://chat.whatsapp.com/Jto9We7J5cJGkChsOQnvmV"><button><h4 style="color: blue">Join the whatsApp Group</h4></button></a>
 </h4>
 
 
