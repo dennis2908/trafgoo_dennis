@@ -63,6 +63,13 @@
 </div>
 </div>
 </div>
-<div id="footer"><p>&copy; 2020 Trafgoo.Edu. All Rights Reserved.</p></div>
+<div id="footer"><div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; 2020 Trafgoo.Edu. All Rights Reserved.</small> 
+						<small class="block">Designed by <a href="{{route('goToPage')}}?page=http://freehtml5.co/" target="_blank">Dennis Manullang</a> +628809615182 <a href="{{route('goToPage')}}?page=#" target="_blank">Learn </a> &amp; <a href="{{route('goToPage')}}?page=#" target="_blank"> Earn</a></small>
+					</p>
+				</div>
+			</div></div>
 </body>
 </html>
