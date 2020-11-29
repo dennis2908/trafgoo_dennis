@@ -37,7 +37,7 @@
 <div align="center">
 <div id="reg-head" class="headrg">Contact Agent For Registration</div>
 </div>
-<h3 align="center" style="color: white"><a href="paymentgate.html"><h3 style="color: white"><a href="{{route('goToPage')}}?page=contact2" target="_blank" style="padding: 5px;padding-right: 60px; padding-left: 60px;"><b>Click to purchase your Pin</a></button></h3></a></h3>
+<h3 align="center" style="color: white"><a href="{{route('goToPage')}}?page=register" target="_blank"><h3 style="color: white"><button style="padding: 5px;padding-right: 60px; padding-left: 60px;"><b>Click to purchase your Pin</b></button></h3></a></h3>
 <div id="reg-bottom" class="btmrg">Learn & Earn</div>
 </div>
 </div>
