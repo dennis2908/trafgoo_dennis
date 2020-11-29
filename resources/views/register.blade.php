@@ -100,29 +100,23 @@
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
-							<li class="active"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=index">Home</a></li>
-							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=courses">Courses</a></li>
-							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=teacher">Teacher</a></li>
-							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=about">About</a></li>
-							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=ebook">eBook</a></li>
+							<li class="active"><a href="{{route('goToPage')}}?page=index2">Home</a></li>
+							<li><a href="{{route('goToPage')}}?page=courses2">Courses</a></li>
+							<li><a href="{{route('goToPage')}}?page=teacher2">Teacher</a></li>
+							<li><a href="{{route('goToPage')}}?page=about2">About</a></li>
+							<li><a href="{{route('goToPage')}}?page=ebook2">eBook</a></li>
 							<li class="has-dropdown">
-								<a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Blog</a>
+								<a href="{{route('goToPage')}}?page=blog2">Blog</a>
 								<ul class="dropdown">
-									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">T-News</a></li>
-									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Scholarships</a></li>
-									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Job</a></li>
-									<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=blog">Trafgoo Update</a></li>
+									<li><a href="{{route('goToPage')}}?page=blog2">T-News</a></li>
+									<li><a href="{{route('goToPage')}}?page=blog2">Scholarships</a></li>
+									<li><a href="{{route('goToPage')}}?page=blog2">Job</a></li>
+									<li><a href="{{route('goToPage')}}?page=blog2">Trafgoo Update</a></li>
 								</ul>
 							</li>
-							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=contact">Contact</a></li>
-							@if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn"><span>Sign In</span></a></li> @endif
-							<li class="btn-cta"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=login"><span>Login</span></a></li>
-							@else
-							<li class="btn-cta"><a href="{{route('goToPage')}}?page={{route('logout')}}"><span>Logout</span></a></li>	
-						    @endif
-							@if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn"><span>Sign In</span></a></li> @endif
-								<li class="btn-cta"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=register"><span>Register</span></a></li>
-							@endif
+							<li><a href="{{route('goToPage')}}?page=contact2">Contact</a></li>
+							@if(session()->has('user'))<li class="btn-cta"><a href="#" data-toggle="modal" data-target="#tesModal"><span>My Account</span></a></li>@endif
+							@if(!session()->has('user'))<li class="btn-cta"><a href="{{route('goToPage')}}?page=register" id="st-btn"><span>Register</span></a></li> @endif @if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn" ><span>Sign In</span></a></li>@endif		
 						</ul>
 					</div>
 				</div>

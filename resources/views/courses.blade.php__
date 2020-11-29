@@ -116,12 +116,12 @@
 								</ul>
 							</li>
 							<li><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=contact">Contact</a></li>
-							@if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn"><span>Sign In</span></a></li> @endif
+							@if(!session()->has('user'))<li class="btn-cta"><a href="{{route('goToPage')}}?page=register" id="st-btn"><span>Register</span></a></li> @endif @if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn" ><span>Sign In</span></a></li>@endif
 							<li class="btn-cta"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=login"><span>Login</span></a></li>
 							@else
 							<li class="btn-cta"><a href="{{route('goToPage')}}?page={{route('logout')}}"><span>Logout</span></a></li>	
 						    @endif
-							@if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn"><span>Sign In</span></a></li> @endif
+							@if(!session()->has('user'))<li class="btn-cta"><a href="{{route('goToPage')}}?page=register" id="st-btn"><span>Register</span></a></li> @endif @if(session()->has('user'))<li class="btn-cta"><a href="{{route('logout')}}" id="st-btn"><span>Sign Out</span></a></li> @else <li class="btn-cta"><a href="{{route('login')}}" id="st-btn" ><span>Sign In</span></a></li>@endif
 								<li class="btn-cta"><a href="{{route('goToPage')}}?page={{route('goToPage')}}?page=register"><span>Register</span></a></li>
 							@endif
 					</div>
