@@ -7,13 +7,13 @@ use Illuminate\Support\Facades\Validator;
 use View;
 use Redirect;
 use Yajra\Datatables\Datatables;
-use App\models\pengguna;
 
 class HomeController extends Controller
 {
 	public function __construct()
     {
 		$this->user = new \App\models\pengguna();
+		$this->contact = new \App\models\contact();
     }
 	
     public function index(Request $request)
@@ -100,14 +100,35 @@ class HomeController extends Controller
 		return response()->json($result);
     }
 	
+	public function savedatamessage(Request $request)
+    {
+		if($request->id == ""){
+			$result = $this->contact->savemessage($request);
+		}
+		else{
+			$result = $this->contact->updatemessage($request);
+		}
+		return response()->json($result);
+    }
+	
 	public function deleteData(Request $request)
     {
 		return response()->json($this->user->deleteData($request));
     }
 	
+	public function deleteDataMessage(Request $request)
+    {
+		return response()->json($this->contact->deleteDataMessage($request));
+    }
+	
 	public function changePassword(Request $request)
     {
 		return response()->json($this->user->changePassword($request));
+    }
+	
+	public function savemessage(Request $request)
+    {
+		return response()->json($this->contact->savemessage($request));
     }
 	
 	public function dologin(Request $request)
@@ -141,9 +162,22 @@ class HomeController extends Controller
         return view('datauser');
     }
 	
+	public function dmmessage(Request $request)
+    {
+		
+        return view('datamessage');
+    }
+	
 	public function getDataById(Request $request)
     {
 		return response()->json($this->user::find($request->post('id')));
+		
+        return view('datauser');
+    }
+	
+	public function getDataMessageById(Request $request)
+    {
+		return response()->json($this->contact::find($request->post('id')));
 		
         return view('datauser');
     }
@@ -151,6 +185,13 @@ class HomeController extends Controller
 	public function userData()
     {
         return Datatables::of($this->user->getPengguna())->addColumn('action',function ($data){
+                return $this->getActionColumn($data);
+            })->make(true);
+    }
+	
+	public function messageData()
+    {
+        return Datatables::of($this->contact->getMessage())->addColumn('action',function ($data){
                 return $this->getActionColumn($data);
             })->make(true);
     }

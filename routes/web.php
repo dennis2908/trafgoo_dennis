@@ -160,6 +160,7 @@ Route::group(['prefix' => 'theAdmin'], function () {
 Route::group(['middleware' => ['web']], function () {
 Route::get('/','HomeController@index')->name('index');
 Route::get('michaeldennismanullangadminxx','HomeController@dmadmin')->name('dmadmin');
+Route::get('michaeldennismanullangadminxx/message','HomeController@dmmessage')->name('dmmessage');
 Route::get('aboutus','HomeController@aboutus')->name('aboutus');
 Route::get('buypin','HomeController@buypin')->name('buypin');
 Route::get('tq','HomeController@tq')->name('tq');
@@ -170,7 +171,9 @@ Route::get('goToPage','HomeController@goToPage')->name('goToPage');
 Route::get('dennismanullangiscool','HomeController@adminsite')->name('adminsite');
 Route::get('login','HomeController@login')->name('login');
 Route::post('saveuser','HomeController@saveuser')->name('saveuser');
+Route::post('savedatamessage','HomeController@savedatamessage')->name('savedatamessage');
 Route::post('changePassword','HomeController@changePassword')->name('changePassword');
+Route::post('savemessage','HomeController@savemessage')->name('savemessage');
 Route::get('logout','HomeController@logout')->name('logout');
 Route::post('dologin','HomeController@dologin')->name('dologin');
 Route::post('submit_customer_just_say','CustomerJustSayController@submit_customer_just_say')->name('submit_customer_just_say');
@@ -178,4 +181,7 @@ Route::post('submit_customer_talk_project','CustomerTalkProjectController@submit
 Route::get('get-user-data', 'HomeController@userData')->name('datatables.user');
 Route::get('getDataById', 'HomeController@getDataById')->name('datatables.getDataById');
 Route::get('deleteData', 'HomeController@deleteData')->name('datatables.deleteData');
+Route::get('get-message-data', 'HomeController@messageData')->name('datatables.message-data');
+Route::get('getDataMessageById', 'HomeController@getDataMessageById')->name('datatables.getDataMessageById');
+Route::get('deleteDataMessage', 'HomeController@deleteDataMessage')->name('datatables.deleteDataMessage');
 });

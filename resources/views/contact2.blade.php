@@ -163,40 +163,44 @@
 				</div>
 				<div class="col-md-6 animate-box">
 					<h3>Get In Touch</h3>
-					<form action="#">
+					<form id="message-form" action="{{route('savemessage')}}" method="post">
+						@csrf
 						<div class="row form-group">
 							<div class="col-md-6">
 								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+								<input type="text" name="fname" class="form-control" placeholder="Your firstname" required>
 							</div>
 							<div class="col-md-6">
 								<!-- <label for="lname">Last Name</label> -->
-								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+								<input type="text" name="lname" class="form-control" placeholder="Your lastname" required>
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
+								<input type="email" name="email" class="form-control" placeholder="Your email address" required>
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+								<input type="text" name="subject" class="form-control" placeholder="Your subject of this message" required>
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us" required></textarea>
 							</div>
 						</div>
 						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary">
+							<input type="submit" value="Send Message" id="my_submit" class="btn btn-primary">
+						</div>
+						<div class="alert alert-success" role="alert">
+						  Successfully Submit Your Messages..We wil contact you very soon
 						</div>
 
 					</form>		
@@ -333,6 +337,34 @@
         day: d.getDate(),
         enableUtc: false
     });
+	$(function(){
+			$('.alert-success').hide();
+			$('#password').focus();
+          $("#message-form").submit(function(){
+            $.ajax({
+              url:$(this).attr("action"),
+              data:$(this).serialize(),
+              type:$(this).attr("method"),
+              dataType: 'html',
+              beforeSend: function() {
+				$("#my_submit").attr('disabled', 'disabled').html("Loading...");
+              },
+              complete:function() {
+				$("#my_submit").removeAttr('disabled').html('Send Message');
+				$('.alert-success').show();
+				
+              },
+              success:function(hasil) {
+				  $('#message-form').trigger("reset");
+				  			$('#password').focus();
+                setTimeout(function(){
+                    $('.alert-success').hide();
+                  },1000);
+              }
+            })
+            return false;
+          });
+        });
 	</script>
 	@include('modal') </body>
 </html>

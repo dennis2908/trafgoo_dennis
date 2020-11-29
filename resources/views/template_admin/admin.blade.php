@@ -32,7 +32,7 @@
 
 		.sidenav {
 		  height: 100%;
-		  width: 60px;
+		  width: 80px;
 		  position: fixed;
 		  z-index: 1;
 		  top: 0;
@@ -55,7 +55,7 @@
 		}
 
 		.main {
-		  margin-left: 60px; /* Same as the width of the sidenav */
+		  margin-left: 75px; /* Same as the width of the sidenav */
 		  font-size: 14px; /* Increased text to enable scrolling */
 		  padding: 0px 10px;
 		}
@@ -77,7 +77,8 @@
     </head>
     <body>
 	    <div class="sidenav">
-		  <a href="{{route('goToPage')}}?page={{route('goToPage')}}?page={!! route('dmadmin') !!}">User</a>
+		  <a href="{!! route('dmadmin') !!}">User</a>
+		  <a href="{!! route('dmmessage') !!}">Message</a>	
 		</div>
 
 		<div class="main">
