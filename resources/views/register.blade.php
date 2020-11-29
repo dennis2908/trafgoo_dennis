@@ -130,7 +130,7 @@
 
 	<body style="background-color: #59d5d8;">
 	<h2 align="center">
-	For Registration visit any of our office:</h2><hr><br><br>
+	For Registration or purchasing please visit any of our office:</h2><hr><br><br>
 
 <h4 align="center"> 18, Banjo Street, Ojoelegba, Surulere, Lagos.<br><br><br>
 
